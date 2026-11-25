@@ -103,7 +103,7 @@ def analyze(questions, runs):
         for group in comparison_groups.values():
             if len(group) < 2:
                 continue
-            total = sum(similarity for _, similarity in group)
+            total = math.fsum(similarity for _, similarity in group)
             for pair, similarity in group:
                 baseline = (total - similarity) / (len(group) - 1)
                 residuals[pair].append(similarity - baseline)
