@@ -1,7 +1,35 @@
 {
-  "edition": "2.0",
-  "reason": "Retain each candidate for which at least one of the 30 models gave a verified correct free-text response. The same models used for selection are ranked on the retained set.",
+  "edition": "2.1",
+  "reason": "Each candidate is scored against the same 30 models that appear on the leaderboard. Retain candidates with at least one verified correct free-text response and strictly less than 90% of models correct (1 through 26 of 30). Archive candidates with zero verified correct responses and those for which at least 90% answer correctly (27 through 30 of 30).",
   "questions": [
+    {
+      "world": "Scadrial",
+      "book": "Mistborn: The Final Empire",
+      "category": "Foundations",
+      "prompt": "Who leads the thieving crew that brings Vin into the plot against the Lord Ruler?",
+      "answer": "Kelsier",
+      "distractors": [
+        "Marsh",
+        "Dockson",
+        "Clubs"
+      ],
+      "explanation": "Kelsier recruits Vin into the rebellion and teaches her to use her Mistborn abilities.",
+      "sourceTitle": "Brandon Sanderson · The original Mistborn trilogy",
+      "sourceUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+      "id": "CB-033",
+      "options": [
+        "Marsh",
+        "Ham",
+        "Clubs",
+        "Dockson",
+        "None of the above"
+      ],
+      "key": 4,
+      "correctModels": 27,
+      "witnessModel": "x-ai/grok-4.7",
+      "exclusionReason": "at_or_above_upper_cutoff",
+      "auditNote": "27 of the 30 evaluated models correctly identified Kelsier. Edition 2.1 excludes questions at or above 90% correct."
+    },
     {
       "world": "Scadrial",
       "book": "The Hero of Ages",
@@ -26,7 +54,8 @@
       ],
       "key": 3,
       "correctModels": 0,
-      "auditNote": "No answer describes leaving the initial message at the designated place. The only positive omits that step. The kandra contacts the client afterward."
+      "auditNote": "No answer describes leaving the initial message at the designated place. The only positive omits that step. The kandra contacts the client afterward.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "Nalthis",
@@ -52,7 +81,8 @@
       ],
       "key": 3,
       "correctModels": 0,
-      "auditNote": "No response identifies the rope loop around her foot or ankle. Fable recalls the rescue and getting her a rope, without saying how he secured her. Mast and belt answers contradict chapter 57."
+      "auditNote": "No response identifies the rope loop around her foot or ankle. Fable recalls the rescue and getting her a rope, without saying how he secured her. Mast and belt answers contradict chapter 57.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "Lumar",
@@ -78,7 +108,8 @@
       ],
       "key": 3,
       "correctModels": 0,
-      "auditNote": "No response identifies the pale skin or tan line left by the signet ring."
+      "auditNote": "No response identifies the pale skin or tan line left by the signet ring.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "Lumar",
@@ -104,7 +135,8 @@
       ],
       "key": 2,
       "correctModels": 0,
-      "auditNote": "No alternative accurately rejects the fifth cup. The sole positive also misidentifies the fourth cup, contradicting the chapter."
+      "auditNote": "No alternative accurately rejects the fifth cup. The sole positive also misidentifies the fourth cup, contradicting the chapter.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "Komashi",
@@ -130,7 +162,8 @@
       ],
       "key": 0,
       "correctModels": 0,
-      "auditNote": "No response identifies the two figures as forms of one spirit. Some question the existence of the shrine instead."
+      "auditNote": "No response identifies the two figures as forms of one spirit. Some question the existence of the shrine instead.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "Komashi",
@@ -156,7 +189,8 @@
       ],
       "key": 1,
       "correctModels": 0,
-      "auditNote": "Fable correctly names the mother, then falsely says the nightmare was forced into a harmless shape. Chapter seven explicitly says it fled instead. Other answers do not identify the mother."
+      "auditNote": "Fable correctly names the mother, then falsely says the nightmare was forced into a harmless shape. Chapter seven explicitly says it fled instead. Other answers do not identify the mother.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "First of the Sun",
@@ -182,7 +216,8 @@
       ],
       "key": 3,
       "correctModels": 0,
-      "auditNote": "No response says the deathant is a drawing. A dead insect or an invented mechanism does not explain the demonstration."
+      "auditNote": "No response says the deathant is a drawing. A dead insect or an invented mechanism does not explain the demonstration.",
+      "exclusionReason": "zero_correct"
     },
     {
       "world": "Sel",
@@ -208,7 +243,8 @@
       ],
       "key": 0,
       "correctModels": 0,
-      "auditNote": "No model accurately identified why Galladon gives no instruction. Ashe actually leads the children to the library after Galladon has left."
+      "auditNote": "No model accurately identified why Galladon gives no instruction. Ashe actually leads the children to the library after Galladon has left.",
+      "exclusionReason": "zero_correct"
     }
   ],
   "runs": [
@@ -216,6 +252,27 @@
       "id": "openai/gpt-6.2-astra",
       "name": "GPT-6.2 Astra",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, the Survivor of Hathsin, leads the crew that recruits Vin to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.00157608,
+          "estimated": false,
+          "promptTokens": 64,
+          "completionTokens": 27,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-6.2-astra",
+              "provider": "OpenAI",
+              "finish": "stop",
+              "promptTokens": 64,
+              "completionTokens": 27,
+              "cost": 0.00157608,
+              "date": "2026-11-25T00:41:42.784828+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would seek a Contract with the kandra and pay in atium. I’m not sure how the noble made the initial contact.",
           "finish": "stop",
@@ -392,6 +449,27 @@
       "id": "anthropic/claude-opus-5.5",
       "name": "Claude Opus 5.5",
       "answers": {
+        "CB-033": {
+          "text": "**Kelsier**, the Mistborn \"Survivor of Hathsin,\" leads the crew (with Dockson as his second) that recruits Vin into the plan to overthrow the Lord Ruler. She had previously worked in Camon's crew, but Kelsier's crew is the one that brings her into the plot.",
+          "finish": "stop",
+          "cost": 0.0066528,
+          "estimated": false,
+          "promptTokens": 95,
+          "completionTokens": 317,
+          "attempts": [
+            {
+              "returnedModel": "anthropic/claude-opus-5.5",
+              "provider": "Claude Platform on AWS",
+              "finish": "stop",
+              "promptTokens": 95,
+              "completionTokens": 317,
+              "cost": 0.0066528,
+              "date": "2026-11-25T00:41:44.641620+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I'm not sure of the exact procedure. The books indicate that kandra were contracted discreetly through their own representatives or go-betweens rather than hired openly, and their fees were notoriously steep: by the Lord Ruler's design, they were paid in atium. I can't recall a specific step-by-step method for how a noble first made contact.",
           "finish": "stop",
@@ -566,6 +644,27 @@
       "id": "anthropic/claude-fable-5.2",
       "name": "Claude Fable 5.2",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, the Survivor of Hathsin, leads the crew that recruits Vin into the plan to overthrow the Lord Ruler in *Mistborn: The Final Empire*. (Before that, Vin was part of a smaller thieving crew led by Camon.)",
+          "finish": "stop",
+          "cost": 0.0043956,
+          "estimated": false,
+          "promptTokens": 95,
+          "completionTokens": 92,
+          "attempts": [
+            {
+              "returnedModel": "anthropic/claude-fable-5.2",
+              "provider": "Google",
+              "finish": "stop",
+              "promptTokens": 95,
+              "completionTokens": 92,
+              "cost": 0.0043956,
+              "date": "2026-11-25T00:41:43.751584+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I'm not sure of the exact first step: as I recall, the books only establish that kandra were hired through Contracts paid for in atium, and that only some of the high nobility (and a few well-informed others, like Kelsier) even knew they existed. I don't remember a specific procedure for initiating a Contract being described, and I don't want to invent one.",
           "finish": "stop",
@@ -753,6 +852,27 @@
       "id": "openai/gpt-6.2-sol",
       "name": "GPT-6.2 Sol",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin into the plot to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.00037422,
+          "estimated": false,
+          "promptTokens": 64,
+          "completionTokens": 25,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-6.2-sol",
+              "provider": "OpenAI",
+              "finish": "stop",
+              "promptTokens": 64,
+              "completionTokens": 25,
+              "cost": 0.00037422,
+              "date": "2026-11-25T00:41:42.709904+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would arrange a Contract with the kandra, paying in atium. I don’t recall how they made initial contact.",
           "finish": "stop",
@@ -927,6 +1047,27 @@
       "id": "openai/gpt-6.1-terra",
       "name": "GPT-6.1 Terra",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin for the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.00018216,
+          "estimated": false,
+          "promptTokens": 64,
+          "completionTokens": 24,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-6.1-terra",
+              "provider": "OpenAI",
+              "finish": "stop",
+              "promptTokens": 64,
+              "completionTokens": 24,
+              "cost": 0.00018216,
+              "date": "2026-11-25T00:41:42.901021+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I believe a noble would begin by contacting the Steel Ministry, which could put them in touch with the kandra to negotiate a contract. I’m not certain which branch of the Ministry handled the request.",
           "finish": "stop",
@@ -1101,6 +1242,27 @@
       "id": "x-ai/grok-4.7",
       "name": "Grok 4.7",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the crew that recruits Vin into the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.0021681,
+          "estimated": false,
+          "promptTokens": 1299,
+          "completionTokens": 220,
+          "attempts": [
+            {
+              "returnedModel": "x-ai/grok-4.7",
+              "provider": "xAI",
+              "finish": "stop",
+              "promptTokens": 1299,
+              "completionTokens": 220,
+              "cost": 0.0021681,
+              "date": "2026-11-25T00:41:44.827313+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would travel to the kandra Homeland and request a formal Contract (paid in atium).",
           "finish": "stop",
@@ -1275,6 +1437,27 @@
       "id": "moonshotai/kimi-k3.1-pro",
       "name": "Kimi K3.1 Pro",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, a Mistborn known as the Survivor of Hathsin, leads the thieving crew that recruits Vin to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.000622314,
+          "estimated": false,
+          "promptTokens": 154,
+          "completionTokens": 59,
+          "attempts": [
+            {
+              "returnedModel": "moonshotai/kimi-k3.1-pro",
+              "provider": "Pareto Inference",
+              "finish": "stop",
+              "promptTokens": 154,
+              "completionTokens": 59,
+              "cost": 0.000622314,
+              "date": "2026-11-25T00:41:42.799186+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "The noble would discreetly contact the kandra through intermediaries to negotiate a formal Contract, offering payment in atium; kandra were not hired openly.",
           "finish": "stop",
@@ -1505,6 +1688,27 @@
       "id": "google/gemini-4-hydrogen",
       "name": "Gemini 4 Hydrogen",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, also known as the Survivor of Hathsin, leads the thieving crew that recruits Vin into the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.002151765,
+          "estimated": false,
+          "promptTokens": 89,
+          "completionTokens": 272,
+          "attempts": [
+            {
+              "returnedModel": "google/gemini-4-hydrogen",
+              "provider": "Google",
+              "finish": "stop",
+              "promptTokens": 89,
+              "completionTokens": 272,
+              "cost": 0.002151765,
+              "date": "2026-11-25T00:41:43.356327+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I am unsure of the exact mechanism a noble would use to initiate contact with the kandra under the Lord Ruler. I know that kandra were hired by nobles using atium and were bound by strict Contracts, but I cannot recall how the initial request was made.",
           "finish": "stop",
@@ -1706,6 +1910,27 @@
       "id": "qwen/qwen4-max",
       "name": "Qwen4 Max",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier — a Mistborn who survived the Pits of Hathsin — leads the thieving crew that recruits Vin and plots to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.000457083,
+          "estimated": false,
+          "promptTokens": 81,
+          "completionTokens": 81,
+          "attempts": [
+            {
+              "returnedModel": "qwen/qwen4-max",
+              "provider": "Alibaba",
+              "finish": "stop",
+              "promptTokens": 81,
+              "completionTokens": 81,
+              "cost": 0.000457083,
+              "date": "2026-11-25T00:41:43.719316+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I'm not confident about the exact procedure, so I'd rather not guess at specifics. What I do recall is that kandra service required a formal Contract, a supplied corpse for the kandra to wear, and a very steep fee (atium being the usual currency of such deals) — but I can't reliably confirm how a noble first made contact under the Lord Ruler, or which Canton, if any, brokered it.",
           "finish": "stop",
@@ -1916,6 +2141,27 @@
       "id": "anthropic/claude-opus-4.8",
       "name": "Claude Opus 4.8",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin in *Mistborn: The Final Empire*, drawing her into his plan to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.00194535,
+          "estimated": false,
+          "promptTokens": 93,
+          "completionTokens": 60,
+          "attempts": [
+            {
+              "returnedModel": "anthropic/claude-opus-4.8",
+              "provider": "Claude Platform on AWS",
+              "finish": "stop",
+              "promptTokens": 93,
+              "completionTokens": 60,
+              "cost": 0.00194535,
+              "date": "2026-11-25T00:41:43.248006+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "The premise is largely false: during the Lord Ruler's reign, kandra existed in secret and their existence wasn't public knowledge, so an ordinary noble wouldn't know to hire one. Kandra served through Contracts arranged via their homeland (the Homeland/First Generation), not through open noble commerce.",
           "finish": "stop",
@@ -2092,6 +2338,27 @@
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek V4 Pro 0813",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin into the plan to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.0004665276,
+          "estimated": false,
+          "promptTokens": 129,
+          "completionTokens": 76,
+          "attempts": [
+            {
+              "returnedModel": "deepseek/deepseek-v4-pro-0813",
+              "provider": "Nebius",
+              "finish": "stop",
+              "promptTokens": 129,
+              "completionTokens": 76,
+              "cost": 0.0004665276,
+              "date": "2026-11-25T00:41:44.180029+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would begin by petitioning the Canton of Inquisition and paying a substantial fee in atium; the Steel Ministry would then assign a kandra to serve under a Contract.",
           "finish": "stop",
@@ -2329,6 +2596,27 @@
       "id": "openai/gpt-6-luna",
       "name": "GPT-6 Luna",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew and brings Vin into the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 1.8216e-05,
+          "estimated": false,
+          "promptTokens": 64,
+          "completionTokens": 24,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-6-luna",
+              "provider": "OpenAI",
+              "finish": "stop",
+              "promptTokens": 64,
+              "completionTokens": 24,
+              "cost": 1.8216e-05,
+              "date": "2026-11-25T00:41:42.735868+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would arrange a formal contract with the kandra, typically through the Ministry’s channels; they weren’t simply hired as ordinary servants. The contract set the terms and payment, and I’m not sure of the exact first step or fee under the Lord Ruler.",
           "finish": "stop",
@@ -2539,6 +2827,27 @@
       "id": "reflection/beam-1.0-501b-a23b",
       "name": "Beam 1.0 501B",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin into the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.0001782,
+          "estimated": false,
+          "promptTokens": 106,
+          "completionTokens": 169,
+          "attempts": [
+            {
+              "returnedModel": "reflection/beam-1.0-501b-a23b",
+              "provider": "CoreWeave",
+              "finish": "stop",
+              "promptTokens": 106,
+              "completionTokens": 169,
+              "cost": 0.0001782,
+              "date": "2026-11-25T00:41:42.463632+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I’m not fully certain of the exact formalities, but I recall a noble would typically arrange a kandra contract through an obligator or kandra enclave, providing a corpse for the kandra to mimic and payment (often atium), rather than hiring one directly like a servant.",
           "finish": "stop",
@@ -2742,6 +3051,27 @@
       "id": "openai/gpt-5.6-luna",
       "name": "GPT-5.6 Luna",
       "answers": {
+        "CB-033": {
+          "text": "The crew is led by **Kelsier**, a charismatic skaa thief and Mistborn who recruits Vin in *Mistborn: The Final Empire*.",
+          "finish": "stop",
+          "cost": 5.3064e-05,
+          "estimated": false,
+          "promptTokens": 64,
+          "completionTokens": 34,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-5.6-luna",
+              "provider": "OpenAI",
+              "finish": "stop",
+              "promptTokens": 64,
+              "completionTokens": 34,
+              "cost": 5.3064e-05,
+              "date": "2026-11-25T00:41:42.938331+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would contact a kandra contract broker in Luthadel, who would arrange the contract and provide the kandra—rather than approaching the kandra homeland directly.",
           "finish": "stop",
@@ -2981,6 +3311,27 @@
       "id": "deepseek/deepseek-v4.1-flash",
       "name": "DeepSeek V4.1 Flash",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin and orchestrates the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 7.85268e-05,
+          "estimated": false,
+          "promptTokens": 85,
+          "completionTokens": 144,
+          "attempts": [
+            {
+              "returnedModel": "deepseek/deepseek-v4.1-flash",
+              "provider": "River",
+              "finish": "stop",
+              "promptTokens": 85,
+              "completionTokens": 144,
+              "cost": 7.85268e-05,
+              "date": "2026-11-25T00:41:43.367563+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would contact the Canton of Resource, which brokered kandra Contracts, and pay the required fee in atium; the kandra would then be bound by the Contract.",
           "finish": "stop",
@@ -3254,6 +3605,27 @@
       "id": "thinkingmachines/inkling-2-small",
       "name": "Inkling 2 Small",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin into the rebellion against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.000120483,
+          "estimated": false,
+          "promptTokens": 79,
+          "completionTokens": 98,
+          "attempts": [
+            {
+              "returnedModel": "thinkingmachines/inkling-2-small",
+              "provider": "Together",
+              "finish": "stop",
+              "promptTokens": 79,
+              "completionTokens": 98,
+              "cost": 0.000120483,
+              "date": "2026-11-25T00:41:42.773203+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I’m not sure of the exact in-world procedure, and I don’t want to invent it. I recall kandra were hired secretly through intermediaries rather than openly, but I can’t reliably state the specific first step under the Lord Ruler.",
           "finish": "stop",
@@ -3455,6 +3827,27 @@
       "id": "z-ai/glm-5.3-flash",
       "name": "GLM-5.3 Flash",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, the Survivor of Hathsin, leads the crew that recruits Vin in *Mistborn: The Final Empire*.",
+          "finish": "stop",
+          "cost": 4.943268e-06,
+          "estimated": false,
+          "promptTokens": 67,
+          "completionTokens": 32,
+          "attempts": [
+            {
+              "returnedModel": "z-ai/glm-5.3-flash",
+              "provider": "Relace",
+              "finish": "stop",
+              "promptTokens": 67,
+              "completionTokens": 32,
+              "cost": 4.943268e-06,
+              "date": "2026-11-25T00:41:43.795131+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "In *Mistborn*, kandra couldn't simply be hired by a noble — they worked under formal Contracts (written by the First Contract) administered through the Lord Ruler's Steel Ministry, with the kandra's home region actually being controlled by the Ministry's theocrats. A noble would have to petition the Ministry and arrange terms through it rather than deal with a kandra directly, and even then kandra were primarily used for dissident infiltration rather than general hire.",
           "finish": "stop",
@@ -3629,6 +4022,27 @@
       "id": "anthropic/claude-sonnet-5.5",
       "name": "Claude Sonnet 5.5",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, a charismatic Mistborn and Survivor of Hathsin, leads the crew that recruits Vin in *Mistborn: The Final Empire* to help overthrow the Lord Ruler. His plan involves staging a larger revolution by undermining the Final Empire's army and nobility, with the crew including Dockson, Breeze, Ham, Clubs, and others.",
+          "finish": "stop",
+          "cost": 0.0014652,
+          "estimated": false,
+          "promptTokens": 95,
+          "completionTokens": 129,
+          "attempts": [
+            {
+              "returnedModel": "anthropic/claude-sonnet-5.5",
+              "provider": "Claude Platform on AWS",
+              "finish": "stop",
+              "promptTokens": 95,
+              "completionTokens": 129,
+              "cost": 0.0014652,
+              "date": "2026-11-25T00:41:44.550837+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "Under the Lord Ruler, a noble would contact the kandra through an intermediary: a go-between from the Contract-holding Second Generation's system, typically via a kandra's \"contract\" being negotiated by the Family's representative, since kandra were hired through a network of contacts rather than directly. I'm not certain of the exact procedure, though.\n\nMore specifically, in *Mistborn: The Final Empire* the kandra were hired through a broker, such as the human intermediary Renoux-style arrangements Kelsier's crew used, and the kandra's own Family would then negotiate the Contract and its price, often paid in part with Allomantic metal. I'm unsure of finer details, such as the exact channel nobles used.",
           "finish": "stop",
@@ -3803,6 +4217,27 @@
       "id": "meta/muse-ember",
       "name": "Muse Ember",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, the Survivor of Hathsin, leads the thieving crew that brings Vin into the plot against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.000133155,
+          "estimated": false,
+          "promptTokens": 80,
+          "completionTokens": 253,
+          "attempts": [
+            {
+              "returnedModel": "meta/muse-ember",
+              "provider": "Google",
+              "finish": "stop",
+              "promptTokens": 80,
+              "completionTokens": 253,
+              "cost": 0.000133155,
+              "date": "2026-11-25T00:41:43.872309+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I'm unsure of a formal public process; from memory, hiring was secretive and vetted — a noble needed an introduction from an existing employer and approval from the kandra themselves, rather than simply posting a contract.",
           "finish": "stop",
@@ -4058,6 +4493,27 @@
       "id": "anthropic/claude-haiku-5.5",
       "name": "Claude Haiku 5.5",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier, the \"Survivor of Hathsin,\" leads the crew that recruits Vin in *Mistborn: The Final Empire*. He's a charismatic skaa thief who plans the heist against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 4.752e-05,
+          "estimated": false,
+          "promptTokens": 95,
+          "completionTokens": 77,
+          "attempts": [
+            {
+              "returnedModel": "anthropic/claude-haiku-5.5",
+              "provider": "Claude Platform on AWS",
+              "finish": "stop",
+              "promptTokens": 95,
+              "completionTokens": 77,
+              "cost": 4.752e-05,
+              "date": "2026-11-25T00:41:43.796109+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I don't remember a specific documented procedure for a noble hiring a kandra under the Lord Ruler, so I'd rather not guess at the steps. Kandra in the Final Empire were tied to the Lord Ruler's rule and their Contract with the Trell, so I'd check the Mistborn books or the Cosmere wiki for the exact details.",
           "finish": "stop",
@@ -4259,6 +4715,27 @@
       "id": "tencent/hy4",
       "name": "HY4",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew; the Mistborn “Survivor of Hathsin” recruits Vin after recognizing her Allomantic potential and brings her into the scheme against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.000554634135,
+          "estimated": false,
+          "promptTokens": 75,
+          "completionTokens": 423,
+          "attempts": [
+            {
+              "returnedModel": "tencent/hy4",
+              "provider": "Tencent",
+              "finish": "stop",
+              "promptTokens": 75,
+              "completionTokens": 423,
+              "cost": 0.000554634135,
+              "date": "2026-11-25T00:41:48.964322+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "Strictly, a noble didn’t “hire” a kandra directly: he began by petitioning the Lord Ruler through the Ministry/obligators for a sealed kandra contract, which only the Lord Ruler could grant, and the assigned kandra secretly reported back to the Lord Ruler. Kelsier later bypassed this by stealing Lord Renoux’s contract, which bound OreSeur to obey whoever held the paper.",
           "finish": "stop",
@@ -4577,6 +5054,27 @@
       "id": "mistralai/mistral-large-4-0",
       "name": "Mistral Large 4",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that recruits Vin and orchestrates the plot to overthrow the Lord Ruler.",
+          "finish": "stop",
+          "cost": 0.000607068,
+          "estimated": false,
+          "promptTokens": 72,
+          "completionTokens": 268,
+          "attempts": [
+            {
+              "returnedModel": "mistralai/mistral-large-4-0",
+              "provider": "Mistral",
+              "finish": "stop",
+              "promptTokens": 72,
+              "completionTokens": 268,
+              "cost": 0.000607068,
+              "date": "2026-11-25T00:41:44.598510+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "A noble would have to petition the Lord Ruler for permission to be granted a kandra, as the Lord Ruler controlled the entire kandra population through hemalurgic spikes and assigned them to nobles as servants.",
           "finish": "stop",
@@ -4823,6 +5321,27 @@
       "id": "qwen/qwen3.8-flash",
       "name": "Qwen3.8 Flash",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that brings Vin into the plot against the Lord Ruler in Brandon Sanderson's *Mistborn* series.",
+          "finish": "stop",
+          "cost": 0.0001708344,
+          "estimated": false,
+          "promptTokens": 107,
+          "completionTokens": 333,
+          "attempts": [
+            {
+              "returnedModel": "qwen/qwen3.8-flash",
+              "provider": "Alibaba",
+              "finish": "stop",
+              "promptTokens": 107,
+              "completionTokens": 333,
+              "cost": 0.0001708344,
+              "date": "2026-11-25T00:41:46.224402+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I am unsure of the exact bureaucratic steps a noble would take to begin the hiring process. I do know, however, that kandra were highly secretive, extremely expensive, and their use was strictly regulated by the Lord Ruler's administration.",
           "finish": "stop",
@@ -5105,6 +5624,27 @@
       "id": "openai/gpt-4o-mini",
       "name": "GPT-4o mini",
       "answers": {
+        "CB-033": {
+          "text": "The thieving crew that brings Vin into the plot against the Lord Ruler is led by Kelsier.",
+          "finish": "stop",
+          "cost": 2.27205e-05,
+          "estimated": false,
+          "promptTokens": 65,
+          "completionTokens": 22,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-4o-mini",
+              "provider": "OpenAI",
+              "finish": "stop",
+              "promptTokens": 65,
+              "completionTokens": 22,
+              "cost": 2.27205e-05,
+              "date": "2026-11-25T00:41:43.578724+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "In Brandon Sanderson's Mistborn series, a noble would typically begin the process of hiring a kandra by contacting a kandra through a representative of the kandra house, often using a formal request that includes the specifics of the task they need the kandra to perform. The noble would also need to provide a body for the kandra to use, as they require a corpse to assume a new form.",
           "finish": "stop",
@@ -5279,6 +5819,27 @@
       "id": "google/gemini-2.5-flash-lite",
       "name": "Gemini 2.5 Flash-Lite",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that brings Vin into the plot against the Lord Ruler. He is a legendary Mistborn known as the Survivor of Hathsin.",
+          "finish": "stop",
+          "cost": 0.000126621,
+          "estimated": false,
+          "promptTokens": 55,
+          "completionTokens": 306,
+          "attempts": [
+            {
+              "returnedModel": "google/gemini-2.5-flash-lite",
+              "provider": "Google AI Studio",
+              "finish": "stop",
+              "promptTokens": 55,
+              "completionTokens": 306,
+              "cost": 0.000126621,
+              "date": "2026-11-25T00:41:44.210409+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "Under the Lord Ruler, a noble would not directly hire a kandra; instead, they would have to petition the Lord Ruler or his appointed officials to request the assignment of a kandra's services, as the kandra were bound to the Lord Ruler's will.",
           "finish": "stop",
@@ -5453,6 +6014,27 @@
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Llama 3.1 8B",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the thieving crew that brings Vin into the plot against the Lord Ruler in the Mistborn series by Brandon Sanderson.",
+          "finish": "stop",
+          "cost": 6.7815e-06,
+          "estimated": false,
+          "promptTokens": 89,
+          "completionTokens": 30,
+          "attempts": [
+            {
+              "returnedModel": "meta-llama/llama-3.1-8b-instruct",
+              "provider": "Groq",
+              "finish": "stop",
+              "promptTokens": 89,
+              "completionTokens": 30,
+              "cost": 6.7815e-06,
+              "date": "2026-11-25T00:41:43.134603+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I'm unsure about the specifics of hiring a kandra under the Lord Ruler in the Mistborn series.",
           "finish": "stop",
@@ -5627,6 +6209,36 @@
       "id": "qwen/qwen3.7-flash",
       "name": "Qwen3.7 Flash",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier leads the crew of thieves that recruits Vin and orchestrates the rebellion against the Lord Ruler in *Mistborn: The Final Empire*.",
+          "finish": "stop",
+          "cost": 0.000133056,
+          "estimated": false,
+          "promptTokens": 138,
+          "completionTokens": 1002,
+          "attempts": [
+            {
+              "returnedModel": "qwen/qwen3.7-flash",
+              "provider": "Alibaba",
+              "finish": "length",
+              "promptTokens": 69,
+              "completionTokens": 512,
+              "cost": 6.79437e-05,
+              "date": "2026-11-25T00:41:49.309865+00:00"
+            },
+            {
+              "returnedModel": "qwen/qwen3.7-flash",
+              "provider": "Alibaba",
+              "finish": "stop",
+              "promptTokens": 69,
+              "completionTokens": 490,
+              "cost": 6.51123e-05,
+              "date": "2026-11-25T00:45:18.942242+00:00"
+            }
+          ],
+          "correct": true,
+          "secondJudgeCorrect": true
+        },
         "CB-039": {
           "text": "I am not entirely sure of the specific bureaucratic steps, but the premise that a noble could simply \"hire\" a kandra is false. Under the Lord Ruler, Kandra were strictly controlled state assets that a noble could only acquire through special permission or as a direct favor from the Lord Ruler's administration.",
           "finish": "stop",
@@ -5873,6 +6485,27 @@
       "id": "thinkingmachines/inkling-2-mini",
       "name": "Inkling 2 Mini",
       "answers": {
+        "CB-033": {
+          "text": "I don’t reliably recall that detail; I shouldn’t guess. If you mean a specific Cosmere title, I can help pin it down, but I’m not certain who leads that crew.",
+          "finish": "stop",
+          "cost": 0.00014486175,
+          "estimated": false,
+          "promptTokens": 79,
+          "completionTokens": 468,
+          "attempts": [
+            {
+              "returnedModel": "thinkingmachines/inkling-2-mini",
+              "provider": "DeepInfra",
+              "finish": "stop",
+              "promptTokens": 79,
+              "completionTokens": 468,
+              "cost": 0.00014486175,
+              "date": "2026-11-25T00:41:45.466755+00:00"
+            }
+          ],
+          "correct": false,
+          "secondJudgeCorrect": false
+        },
         "CB-039": {
           "text": "I’m not sure enough to answer reliably; I don’t have a dependable memory of a “Lord Ruler” or a formal process for a noble to hire a “kandra” in the Cosmere, so I don’t want to invent one. The premise may be mixing terms or details.",
           "finish": "stop",
@@ -6047,6 +6680,27 @@
       "id": "openai/gpt-oss-20b",
       "name": "GPT-OSS 20B",
       "answers": {
+        "CB-033": {
+          "text": "The thieving crew is led by Kelsier, the charismatic “Skybreak” master thief who brings Vin into the rebellion against the Lord Ruler.",
+          "finish": "stop",
+          "cost": 6.710121e-06,
+          "estimated": false,
+          "promptTokens": 128,
+          "completionTokens": 63,
+          "attempts": [
+            {
+              "returnedModel": "openai/gpt-oss-20b",
+              "provider": "Darkbloom",
+              "finish": "stop",
+              "promptTokens": 128,
+              "completionTokens": 63,
+              "cost": 6.710121e-06,
+              "date": "2026-11-25T00:41:43.848505+00:00"
+            }
+          ],
+          "correct": false,
+          "secondJudgeCorrect": false
+        },
         "CB-039": {
           "text": "Under the Lord Ruler, a noble would first have to locate a kandra—usually by seeking out a known kandra or a kandra‑like creature in the wild—and then perform a binding ritual to bind the kandra to themselves. However, binding a kandra is illegal under the Lord Ruler’s laws, so the noble would be risking severe punishment if caught.",
           "finish": "stop",
@@ -6221,6 +6875,27 @@
       "id": "minimax/minimax-m3.1-flash",
       "name": "MiniMax M3.1 Flash",
       "answers": {
+        "CB-033": {
+          "text": "Kelsier (the \"Twilight\") leads the thieving crew that recruits Vin for the heist against the Lord Ruler, while Elend Venture is the nobleman who funds and organizes the operation.",
+          "finish": "stop",
+          "cost": 6.8607e-05,
+          "estimated": false,
+          "promptTokens": 249,
+          "completionTokens": 135,
+          "attempts": [
+            {
+              "returnedModel": "minimax/minimax-m3.1-flash",
+              "provider": "Makora",
+              "finish": "stop",
+              "promptTokens": 249,
+              "completionTokens": 135,
+              "cost": 6.8607e-05,
+              "date": "2026-11-25T00:41:44.521435+00:00"
+            }
+          ],
+          "correct": false,
+          "secondJudgeCorrect": false
+        },
         "CB-039": {
           "text": "A noble seeking a kandra would go to the Ghostbloods, the kandra who broker such contracts, and request a \"listener\" — a kandra who acts as the hired servant's intermediary and negotiates the terms of the contract on the kandra's behalf, since the kandra themselves generally don't deal directly with the noble at first. (I'm recalling this from *The Well of Ascension*/*The Hero of Ages*, so I'm moderately but not fully confident in the details of the arrangement.)",
           "finish": "stop",
@@ -6481,5 +7156,6 @@
         }
       }
     }
-  ]
+  ],
+  "modelCount": 30
 }

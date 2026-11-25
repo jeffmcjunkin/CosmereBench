@@ -97,6 +97,11 @@ export type Reveal = {
 export type Protocol = {
   version: string;
   candidateQuestions?: number;
+  selectionMaximumAccuracyExclusive?: number;
+  selectionModelCount?: number;
+  excludedZeroCorrectQuestions?: number;
+  excludedHighAccuracyQuestions?: number;
+  previousReleaseUrl?: string;
   firstPassTokens?: number;
   truncationRetryTokens?: number;
   finalTruncationRetryTokens?: number;

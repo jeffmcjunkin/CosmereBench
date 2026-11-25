@@ -594,10 +594,31 @@ function Info({
                   and retained {sources.length}.{" "}
                 </>
               )}
-              The same models used to select the questions are ranked here. We
-              excluded questions for which the audit found no verified correct
-              model answer. This selection changes the difficulty, so compare
-              scores within the same edition.{" "}
+              {typeof protocol.selectionMaximumAccuracyExclusive === "number" &&
+              typeof protocol.excludedZeroCorrectQuestions === "number" &&
+              typeof protocol.excludedHighAccuracyQuestions === "number" ? (
+                <>
+                  We excluded {protocol.excludedZeroCorrectQuestions} questions
+                  with zero verified correct model answers and{" "}
+                  {protocol.excludedHighAccuracyQuestions} at or above the{" "}
+                  {Math.round(100 * protocol.selectionMaximumAccuracyExclusive)}
+                  % accuracy cutoff (
+                  {Math.ceil(
+                    protocol.selectionMaximumAccuracyExclusive *
+                      (protocol.selectionModelCount ?? models.length),
+                  )}
+                  /{protocol.selectionModelCount ?? models.length} models
+                  correct).{" "}
+                </>
+              ) : (
+                <>
+                  We excluded questions for which the audit found no verified
+                  correct model answer.{" "}
+                </>
+              )}
+              The same models used to select the questions are ranked here. This
+              selection changes the difficulty, so compare scores within the
+              same edition.{" "}
               <a
                 href="https://github.com/jeffmcjunkin/CosmereBench/blob/main/data/excluded.json"
                 target="_blank"
@@ -605,7 +626,16 @@ function Info({
               >
                 Review the excluded questions and audit notes
               </a>
-              .
+              .{" "}
+              {protocol.previousReleaseUrl && (
+                <a
+                  href={protocol.previousReleaseUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open the edition 2.0 archive
+                </a>
+              )}
             </p>
           )}
           <details className="coverage">

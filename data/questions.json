@@ -834,32 +834,6 @@
   {
     "world": "Scadrial",
     "book": "Mistborn: The Final Empire",
-    "category": "Foundations",
-    "prompt": "Who leads the thieving crew that brings Vin into the plot against the Lord Ruler?",
-    "answer": "Kelsier",
-    "distractors": [
-      "Marsh",
-      "Dockson",
-      "Clubs"
-    ],
-    "explanation": "Kelsier recruits Vin into the rebellion and teaches her to use her Mistborn abilities.",
-    "sourceTitle": "Brandon Sanderson · The original Mistborn trilogy",
-    "sourceUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
-    "id": "CB-033",
-    "options": [
-      "Marsh",
-      "Ham",
-      "Clubs",
-      "Dockson",
-      "None of the above"
-    ],
-    "key": 4,
-    "correctModels": 27,
-    "witnessModel": "x-ai/grok-4.7"
-  },
-  {
-    "world": "Scadrial",
-    "book": "Mistborn: The Final Empire",
     "category": "Close reading",
     "prompt": "When Spook and Kelsier start talking in street slang and Ham joins in, which member of the crew is left asking what they are saying?",
     "answer": "Breeze",

@@ -1,8 +1,6 @@
 import releaseKeys from "../data/pool-keys.json";
+import edition20Keys from "../data/pool-keys-2.0.json";
 
-const edition = "2.0";
-const keys: Record<string, number> = releaseKeys;
-const keysJson = JSON.stringify(keys);
 const allowedOrigins = new Set([
   "https://jeffmcjunkin.com",
   "https://www.jeffmcjunkin.com",
@@ -13,10 +11,22 @@ const minForAverage = 10;
 const maxBodyBytes = 16 * 1024;
 const validChoice = (value: unknown): value is number =>
   typeof value === "number" && Number.isInteger(value) && value >= 0 && value <= 4;
-const keysReady = Object.keys(keys).length > 0 && Object.values(keys).every(validChoice);
+function board(keys: Record<string, number>) {
+  return {
+    keys,
+    json: JSON.stringify(keys),
+    ready: Object.keys(keys).length > 0 && Object.values(keys).every(validChoice),
+  };
+}
+
+const editions = new Map([
+  ["2.0", board(edition20Keys)],
+  ["2.1", board(releaseKeys)],
+]);
+const publishedIds = new Set([...Object.keys(edition20Keys), ...Object.keys(releaseKeys)]);
 
 // One JSON parameter keeps boards of 100 or more questions below D1's SQL
-// parameter limit. Regrade retained choices against the current edition's keys.
+// parameter limit. Regrade retained choices against the requested edition's keys.
 const aggregateSql = `
   WITH active AS (
     SELECT reader, question, choice = CAST(json_extract(?1, '$.' || question) AS TEXT) AS is_correct
@@ -40,7 +50,7 @@ type Counts = { answered: number; correct: number };
 function validAnswer(value: unknown): value is Choice {
   if (value === null || typeof value !== "object") return false;
   const { id, choice } = value as Partial<Choice>;
-  return typeof id === "string" && Object.hasOwn(keys, id) && validChoice(choice);
+  return typeof id === "string" && publishedIds.has(id) && validChoice(choice);
 }
 
 async function readBody(request: Request): Promise<unknown> {
@@ -82,7 +92,7 @@ export async function handleCommunity(request: Request, db?: D1Database): Promis
   }
   if (request.headers.get("Content-Type")?.split(";")[0].trim().toLowerCase() !== "application/json")
     return fail("Expected application/json", 415);
-  if (!db || !keysReady) return fail("Community totals are unavailable", 503);
+  if (!db) return fail("Community totals are unavailable", 503);
 
   let input: unknown;
   try {
@@ -92,24 +102,29 @@ export async function handleCommunity(request: Request, db?: D1Database): Promis
   }
   if (input === null || typeof input !== "object") return fail("Expected a submission object", 400);
   const { edition: incomingEdition, reader, answers } = input as Record<string, unknown>;
-  if (incomingEdition !== edition) return fail("Unsupported benchmark edition", 409);
+  const edition = typeof incomingEdition === "string" ? editions.get(incomingEdition) : undefined;
+  if (!edition) return fail("Unsupported benchmark edition", 409);
+  if (!edition.ready) return fail("Community totals are unavailable", 503);
   if (typeof reader !== "string" || !uuid.test(reader)) return fail("Invalid reader ID", 400);
   if (!Array.isArray(answers) || answers.length > 20 || !answers.every(validAnswer))
     return fail("Expected up to 20 valid answers", 400);
 
   try {
     const statements: D1PreparedStatement[] = [];
-    if (answers.length) {
-      const slots = answers.map(() => "(?, ?, ?, ?)").join(", ");
-      const values = answers.flatMap(({ id, choice }) =>
-        [reader.toLowerCase(), id, String(choice), Number(choice === keys[id])]
+    // Acknowledge published questions retired in this edition so a stale queue
+    // can drain and valid answers in the same batch still commit.
+    const retained = answers.filter(({ id }) => Object.hasOwn(edition.keys, id));
+    if (retained.length) {
+      const slots = retained.map(() => "(?, ?, ?, ?)").join(", ");
+      const values = retained.flatMap(({ id, choice }) =>
+        [reader.toLowerCase(), id, String(choice), Number(choice === edition.keys[id])]
       );
       statements.push(db.prepare(
         `INSERT INTO answers (reader, question, choice, correct) VALUES ${slots}
          ON CONFLICT(reader, question) DO NOTHING`
       ).bind(...values));
     }
-    statements.push(db.prepare(aggregateSql).bind(keysJson, minForAverage));
+    statements.push(db.prepare(aggregateSql).bind(edition.json, minForAverage));
     const results = await db.batch<Counts & { question: string | null; qualifiedReaders: number | null; readerAverage: number | null }>(statements);
     const aggregate = results.at(-1);
     if (!aggregate?.success) return fail("Community totals are unavailable", 503);

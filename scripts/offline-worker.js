@@ -14,17 +14,19 @@ self.addEventListener("install", (event) => {
         await caches.delete(cacheName);
         throw error;
       }
+      // A reader can leave an old round open without delaying the next edition.
+      await self.skipWaiting();
     })(),
   );
 });
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {
-      await Promise.all(
-        (await caches.keys())
-          .filter((k) => k.startsWith(prefix) && k !== cacheName)
-          .map((k) => caches.delete(k)),
+      const previous = (await caches.keys()).filter(
+        (key) => key.startsWith(prefix) && key !== cacheName,
       );
+      // An open page can still request assets with the previous build's hash.
+      await Promise.all(previous.slice(0, -1).map((key) => caches.delete(key)));
       await self.clients.claim();
     })(),
   );
@@ -43,7 +45,13 @@ self.addEventListener("fetch", (event) => {
         const entry = await cache.match(new URL("index.html", scope));
         if (entry) return entry;
       }
-      return (await cache.match(event.request)) || fetch(event.request);
+      const cached = await cache.match(event.request);
+      if (cached) return cached;
+      if (url.href.startsWith(new URL("assets/", scope).href)) {
+        const previous = await caches.match(event.request);
+        if (previous) return previous;
+      }
+      return fetch(event.request);
     })(),
   );
 });
