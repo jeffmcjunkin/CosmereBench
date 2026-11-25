@@ -1,0 +1,430 @@
+.cq-dialog {
+  --cq-ink: #172a3c;
+  --cq-muted: #516375;
+  --cq-line: #d0d6d6;
+  --cq-cream: #fcfaf5;
+  --cq-copper: #8c4c2e;
+  position: fixed;
+  inset: 0;
+  width: min(43rem, calc(100% - 2rem));
+  max-width: none;
+  max-height: min(90dvh, 60rem);
+  margin: auto;
+  padding: 0;
+  border: 1px solid #a2a8aa;
+  border-radius: 0.6rem;
+  background: var(--cq-cream);
+  color: var(--cq-ink);
+  box-shadow: 0 1.5rem 5rem #08162255;
+  font:
+    400 1rem/1.5 "DM Sans",
+    sans-serif;
+  overflow: auto;
+  overscroll-behavior: contain;
+  color-scheme: light;
+}
+.cq-dialog::backdrop {
+  background: rgb(9 21 35 / 76%);
+  backdrop-filter: blur(2px);
+}
+.cq-shell {
+  padding: 1.35rem clamp(1.15rem, 4vw, 2.75rem) 2.1rem;
+}
+.cq-dialog :where(h2, h3, p, ul, fieldset) {
+  margin: 0;
+}
+.cq-dialog button {
+  cursor: pointer;
+  font-family: inherit;
+}
+.cq-dialog button:disabled {
+  cursor: default;
+  opacity: 0.58;
+}
+.cq-dialog :where(button, a, summary):focus-visible,
+.cq-option:has(input:focus-visible) {
+  outline: 3px solid #aa6740;
+  outline-offset: 3px;
+}
+.cq-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cq-line);
+  padding-bottom: 0.85rem;
+}
+.cq-brand {
+  font:
+    400 1.25rem/1.15 "DM Serif Text",
+    Georgia,
+    serif;
+}
+.cq-brand span {
+  color: var(--cq-copper);
+  font-style: italic;
+}
+.cq-dismiss {
+  display: grid;
+  place-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  padding: 0;
+  color: var(--cq-ink);
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 400;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.cq-dismiss:hover {
+  border-color: var(--cq-line);
+  background: #edf0ee;
+}
+.cq-progress-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 1.25rem 0 0.48rem;
+  font-size: 0.875rem;
+  color: var(--cq-muted);
+}
+.cq-progress {
+  display: block;
+  appearance: none;
+  width: 100%;
+  border: 0;
+  height: 3px;
+  background: #dce0df;
+}
+.cq-progress::-webkit-progress-bar {
+  background: #dce0df;
+}
+.cq-progress::-webkit-progress-value {
+  background: var(--cq-copper);
+}
+.cq-progress::-moz-progress-bar {
+  background: var(--cq-copper);
+}
+.cq-context {
+  margin: 1.55rem 0 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem 0.6rem;
+  align-items: baseline;
+  color: var(--cq-muted);
+  font-size: 0.875rem;
+}
+.cq-context span:first-child,
+.cq-kicker {
+  font:
+    500 0.8rem/1.5 "IBM Plex Mono",
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.065em;
+  color: var(--cq-copper);
+}
+.cq-context span + span::before {
+  content: "·";
+  padding-right: 0.6rem;
+}
+.cq-dialog h2,
+.cq-dialog h3 {
+  font-family: "DM Serif Text", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: var(--cq-ink);
+}
+.cq-question {
+  font-size: clamp(1.47rem, 3.15vw, 2rem);
+  line-height: 1.15;
+  margin-bottom: 1.1rem;
+}
+.cq-question:focus,
+.cq-summary h2:focus,
+.cq-feedback:focus {
+  outline: none;
+}
+.cq-options {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+.cq-option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 3.05rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #c8d0d1;
+  border-radius: 4px;
+  background: #fffefb;
+  cursor: pointer;
+}
+.cq-options:disabled .cq-option {
+  cursor: default;
+}
+.cq-options:not(:disabled) .cq-option:hover {
+  background: #eef1f0;
+  border-color: #8e9da2;
+}
+.cq-option input,
+.cq-sr {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.cq-letter {
+  display: grid;
+  place-items: center;
+  flex: 0 0 1.65rem;
+  width: 1.65rem;
+  height: 1.65rem;
+  border: 1px solid #bfc8c9;
+  border-radius: 3px;
+  color: #465763;
+  font:
+    500 0.81rem/1 "IBM Plex Mono",
+    monospace;
+}
+.cq-option[data-state="picked"] {
+  background: #eaf0f2;
+  border-color: #40576a;
+  box-shadow: inset 0.15rem 0 #40576a;
+}
+.cq-option[data-state="picked"] .cq-letter {
+  background: var(--cq-ink);
+  color: white;
+  border-color: var(--cq-ink);
+}
+.cq-option[data-state="correct"] {
+  background: #eaf3ee;
+  border-color: #6b8b78;
+}
+.cq-option[data-state="wrong"] {
+  background: #f8efeb;
+  border-color: #ae7b66;
+}
+.cq-wording {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+.cq-wording small {
+  display: block;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+.cq-option[data-state="correct"] small,
+.cq-right {
+  color: #26583e;
+}
+.cq-option[data-state="wrong"] small,
+.cq-wrong {
+  color: #8b422b;
+}
+.cq-shortcuts {
+  color: var(--cq-muted);
+  font-size: 0.8125rem;
+  margin-top: 0.85rem;
+}
+.cq-error {
+  margin: 0.8rem 0;
+  padding: 0.65rem 0.8rem;
+  border-left: 3px solid var(--cq-copper);
+  color: #813f2c;
+  background: #f7ede6;
+}
+.cq-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.55rem 1rem;
+  margin-top: 1.15rem;
+}
+.cq-primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2.8rem;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 0.6rem 1.15rem;
+  background: var(--cq-ink);
+  color: #fffdf7;
+  border: 1px solid var(--cq-ink);
+}
+.cq-primary:hover:not(:disabled) {
+  background: #2e4659;
+}
+.cq-end {
+  min-height: 2.8rem;
+  color: var(--cq-muted);
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.cq-feedback {
+  margin-top: 1.15rem;
+  scroll-margin: 1rem;
+}
+.cq-verdict {
+  border-top: 1px solid var(--cq-line);
+  padding-top: 0.9rem;
+}
+.cq-verdict-label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  color: var(--cq-muted);
+  font-size: 0.875rem;
+}
+.cq-verdict-label span:first-child {
+  font-weight: 700;
+}
+.cq-verdict h3 {
+  margin: 0.25rem 0 0.35rem;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+.cq-verdict p,
+.cq-models p {
+  font-size: 1rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.cq-verdict a {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: var(--cq-copper);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-top: 0.45rem;
+}
+.cq-comparison {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.7rem 0;
+  border-block: 1px solid var(--cq-line);
+}
+.cq-comparison div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding: 0 0.8rem;
+}
+.cq-comparison div:first-child {
+  border-right: 1px solid var(--cq-line);
+  padding-left: 0;
+}
+.cq-comparison strong {
+  font:
+    400 1.6rem/1.12 "DM Serif Text",
+    Georgia,
+    serif;
+}
+.cq-comparison span,
+.cq-secondary {
+  color: var(--cq-muted);
+  font-size: 0.875rem;
+}
+.cq-models summary {
+  width: fit-content;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.cq-models summary span {
+  font-weight: 400;
+}
+.cq-models ul {
+  list-style: none;
+  padding: 0;
+}
+.cq-models li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--cq-line);
+}
+.cq-models li > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.4rem;
+}
+.cq-models li > div > span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.cq-models li p {
+  margin-top: 0.25rem;
+  white-space: pre-wrap;
+}
+.cq-summary {
+  padding: 2rem 0 0.55rem;
+}
+.cq-summary h2 {
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  margin: 0.3rem 0 0.35rem;
+  line-height: 1.1;
+}
+.cq-big-score {
+  font:
+    400 clamp(4rem, 12vw, 6.4rem) / 1.08 "DM Serif Text",
+    Georgia,
+    serif;
+  color: var(--cq-copper);
+  letter-spacing: -0.055em;
+}
+.cq-big-score span {
+  font-size: 0.55em;
+}
+.cq-summary p + p {
+  margin-top: 0.4rem;
+}
+.cq-summary .cq-primary {
+  margin-top: 1.5rem;
+}
+@media (max-width: 38rem) {
+  .cq-dialog {
+    width: calc(100% - 0.9rem);
+    max-height: calc(100dvh - 1rem);
+  }
+  .cq-shell {
+    padding: 0.65rem 1rem 1.25rem;
+  }
+  .cq-top {
+    padding-bottom: 0.4rem;
+  }
+  .cq-progress-meta {
+    margin-top: 0.9rem;
+  }
+  .cq-context {
+    margin-top: 1rem;
+  }
+  .cq-shortcuts {
+    display: none;
+  }
+  .cq-option {
+    min-height: 2.95rem;
+  }
+}
+.cq-models .cq-review {
+  border-left: 2px solid #c6a382;
+  padding-left: 9px;
+  font-size: 0.83rem;
+  color: #585e66;
+  margin-top: 8px;
+}

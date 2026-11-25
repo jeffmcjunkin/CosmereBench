@@ -1,0 +1,451 @@
+.csim {
+  --cs-ink: #172d44;
+  --cs-muted: #53626a;
+  --cs-rule: #d9d9d0;
+  --cs-paper: #fffdf7;
+  --cs-light: #f4f1e8;
+  --cs-copper: #8e4c30;
+  min-width: 0;
+  background: #fff;
+  border: 1px solid var(--cs-rule);
+  border-radius: 10px;
+  padding: clamp(20px, 3.2vw, 42px);
+  font-family: "DM Sans", Arial, sans-serif;
+  color: var(--cs-ink);
+  scroll-margin-top: 5rem;
+}
+.csim *,
+.csim *::before,
+.csim *::after {
+  box-sizing: border-box;
+}
+.csim-heading,
+.csim-subhead,
+.csim-tools,
+.csim-selected-head {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+.csim-heading h2,
+.csim-subhead h3,
+.csim h4 {
+  margin: 0;
+  font-family: "DM Serif Text", Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  color: var(--cs-ink);
+}
+.csim-heading h2 {
+  font-size: clamp(1.95rem, 3.25vw, 2.85rem);
+  line-height: 1.05;
+}
+.csim-subhead {
+  margin-top: 2.6rem;
+  border-top: 1px solid var(--cs-rule);
+  padding-top: 1.6rem;
+  scroll-margin-top: 5rem;
+}
+.csim-subhead h3 {
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  line-height: 1.16;
+}
+.csim h4 {
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+.csim .csim-intro {
+  margin: 0.65rem 0 1.4rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 65ch;
+  color: var(--cs-muted);
+}
+.csim-link {
+  color: var(--cs-muted);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 1.9rem;
+  min-height: 1.9rem;
+}
+.csim-link:hover,
+.csim-link:focus-visible {
+  color: var(--cs-copper);
+}
+.csim-link span {
+  position: absolute;
+  top: 100%;
+  background: var(--cs-ink);
+  color: white;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.2rem;
+  z-index: 3;
+  white-space: nowrap;
+}
+.csim-tools,
+.csim-selected-head {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.csim-tools {
+  margin: 0 0 0.8rem;
+}
+.csim-caption {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.csim-switch {
+  display: inline-flex;
+  gap: 0.15rem;
+  padding: 0.15rem;
+  border: 1px solid var(--cs-rule);
+  border-radius: 0.4rem;
+}
+.csim-switch button {
+  background: transparent;
+  color: var(--cs-muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0.25rem;
+  padding: 0.35rem 0.75rem;
+  cursor: pointer;
+}
+.csim-switch button[aria-pressed="true"] {
+  background: var(--cs-ink);
+  color: var(--cs-paper);
+}
+.csim-scroll {
+  max-width: 100%;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #babcb1 transparent;
+}
+.csim-scroll:focus-visible,
+.csim button:focus-visible,
+.csim summary:focus-visible,
+.csim a:focus-visible {
+  outline: 2px solid var(--cs-copper);
+  outline-offset: 2px;
+}
+.csim-scroll:focus-visible {
+  outline-offset: -2px;
+}
+.csim-heat-region {
+  padding: 0.65rem 0.45rem 0.7rem;
+  border: 1px solid var(--cs-rule);
+  border-radius: 0.4rem;
+  background: var(--cs-paper);
+}
+.csim-matrix {
+  border-collapse: separate;
+  border-spacing: 3px;
+  margin: 0 auto;
+  width: auto;
+}
+.csim-matrix th,
+.csim-matrix td {
+  padding: 0;
+  border: 0;
+  text-align: center;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.csim-matrix thead th {
+  font-size: 0.76rem;
+  font-weight: 600;
+  height: 1.5rem;
+  color: var(--cs-muted);
+}
+.csim-matrix .csim-name {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--cs-paper);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-right: 0.6rem;
+  text-align: left;
+  white-space: nowrap;
+}
+.csim-matrix thead .csim-name {
+  padding-left: 1.65rem;
+  font-size: 0.8rem;
+}
+.csim-number {
+  display: inline-block;
+  width: 1.5rem;
+  color: var(--cs-muted);
+  font-size: 0.76rem;
+}
+.csim-cell,
+.csim-diag {
+  display: block;
+  width: 1.8rem;
+  height: 1.8rem;
+  min-width: 1.8rem;
+  border-radius: 0.15rem;
+  border: 0;
+  padding: 0;
+}
+.csim-cell {
+  cursor: pointer;
+}
+.csim-cell:hover,
+.csim-cell[aria-pressed="true"] {
+  outline: 2px solid var(--cs-copper);
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 1.5px white;
+}
+.csim-diag {
+  background: #e0e2df;
+  color: #667178;
+  line-height: 1.8rem;
+}
+.csim-scale {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.81rem;
+  margin: 0.85rem 0 0.15rem;
+  font-variant-numeric: tabular-nums;
+}
+.csim-scale i {
+  width: 6rem;
+  height: 0.54rem;
+  background: linear-gradient(90deg, #a54f2c, #f0eee4, #234256);
+  border: 1px solid #dadad0;
+  border-radius: 1rem;
+}
+.csim-scale-caption {
+  color: var(--cs-muted);
+  margin-left: 0.35rem;
+}
+.csim .csim-note,
+.csim .csim-empty {
+  color: var(--cs-muted);
+  line-height: 1.55;
+  font-size: 0.9rem;
+  margin: 0.55rem 0 0.9rem;
+}
+.csim .csim-empty {
+  font-style: italic;
+}
+.csim-selected {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border-left: 3px solid var(--cs-copper);
+  background: var(--cs-light);
+}
+.csim-selected-head strong {
+  font-weight: 650;
+}
+.csim-selected-head span {
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+.csim-selected p {
+  margin: 0.35rem 0;
+  font-size: 0.9rem;
+  color: var(--cs-muted);
+}
+.csim details > summary {
+  cursor: pointer;
+  display: list-item;
+  list-style: disclosure-closed inside;
+}
+.csim details[open] > summary {
+  list-style-type: disclosure-open;
+}
+.csim details > summary::marker {
+  color: var(--cs-copper);
+}
+.csim-selected summary,
+.csim-spoilers > summary,
+.csim-example > summary {
+  font-size: 0.94rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0.4rem 0;
+}
+.csim-selected ul {
+  padding: 0;
+  list-style: none;
+  margin: 0.35rem 0 0;
+  max-height: 22rem;
+  overflow: auto;
+}
+.csim-selected li {
+  border-top: 1px solid var(--cs-rule);
+  padding: 0.65rem 0;
+  font-size: 0.93rem;
+  line-height: 1.4;
+}
+.csim-selected li small {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--cs-muted);
+  font-size: 0.8rem;
+}
+.csim-pair-table,
+.csim-mini {
+  max-height: 20rem;
+  border-block: 1px solid var(--cs-rule);
+}
+.csim-data {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.csim-data td,
+.csim-data th {
+  padding: 0.55rem 0.55rem;
+  border: none;
+  border-bottom: 1px solid var(--cs-rule);
+  vertical-align: top;
+  background: transparent;
+}
+.csim-data th {
+  position: sticky;
+  top: 0;
+  background: var(--cs-light);
+  color: var(--cs-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  z-index: 1;
+}
+.csim-data :is(td, th):not(:first-child) {
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.csim-data tr:last-child td {
+  border-bottom: none;
+}
+.csim-data tr[data-chosen="true"] td {
+  background: var(--cs-light);
+}
+.csim .csim-pick {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: none;
+  color: var(--cs-copper);
+  text-align: left;
+  font-size: inherit;
+  font-weight: 500;
+}
+.csim .csim-pick:hover {
+  text-decoration: underline;
+}
+.csim-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.16fr) minmax(0, 1fr);
+  gap: 2rem;
+  margin-top: 1.4rem;
+}
+.csim-columns > div {
+  min-width: 0;
+}
+.csim-spoilers {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--cs-rule);
+  border-radius: 0.35rem;
+  background: var(--cs-paper);
+}
+.csim-spoilers > summary span {
+  color: var(--cs-muted);
+  font-weight: 400;
+}
+.csim-example {
+  border-top: 1px solid var(--cs-rule);
+  padding: 0.35rem 0;
+}
+.csim-example > summary {
+  font-weight: 500;
+}
+.csim-quotes {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0.5rem 0 0.8rem;
+}
+.csim-quotes figure {
+  margin: 0;
+  background: var(--cs-light);
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+}
+.csim-quotes figcaption {
+  font-size: 0.82rem;
+  font-weight: 650;
+  margin-bottom: 0.3rem;
+  color: var(--cs-copper);
+}
+.csim-quotes blockquote {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.csim-quotes mark {
+  background: #efceaa;
+  color: #312e2c;
+}
+.csim-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@media (max-width: 720px) {
+  .csim-columns,
+  .csim-quotes {
+    grid-template-columns: 1fr;
+    gap: 1.35rem;
+  }
+  .csim-matrix .csim-name {
+    white-space: normal;
+    max-width: 7.75rem;
+    min-width: 6.75rem;
+    line-height: 1.15;
+    padding-right: 0.2rem;
+  }
+  .csim-number {
+    width: 1.15rem;
+  }
+  .csim-cell,
+  .csim-diag {
+    width: 1.5rem;
+    height: 1.5rem;
+    min-width: 1.5rem;
+  }
+  .csim-pair-table .csim-data {
+    min-width: 30rem;
+  }
+  .csim-matrix {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 721px) {
+  .csim-matrix[data-dense="true"] {
+    border-spacing: 2px;
+  }
+  .csim-matrix[data-dense="true"] :is(.csim-cell, .csim-diag) {
+    width: 1.25rem;
+    min-width: 1.25rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+  }
+}

@@ -1,0 +1,3331 @@
+[
+  {
+    "world": "Roshar",
+    "book": "The Way of Kings",
+    "category": "Foundations",
+    "prompt": "At the end of the Desolation in the prelude to The Way of Kings, which Herald died holding a passage near the northern waterway?",
+    "answer": "Talenel (Taln)",
+    "distractors": [
+      "Kalak",
+      "Jezrien",
+      "Ishar"
+    ],
+    "explanation": "Jezrien tells Kalak that only one of the ten died in that battle. Taln is already back in the place the surviving Heralds dread.",
+    "sourceTitle": "The Way of Kings • Prelude",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-way-of-kings-prelude",
+    "id": "CB-001",
+    "options": [
+      "Jezrien",
+      "Kalak",
+      "Ishar",
+      "Talenel (Taln)",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 13,
+    "witnessModel": "thinkingmachines/inkling-2-small"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Stormlight Archive",
+    "category": "Foundations",
+    "prompt": "Which order of Knights Radiant advances after the First Ideal by speaking truths about themselves?",
+    "answer": "Lightweavers",
+    "distractors": [
+      "Truthwatchers",
+      "Elsecallers",
+      "Willshapers"
+    ],
+    "explanation": "A Lightweaver has to acknowledge a personal truth to progress. Truthwatchers concern themselves with discovering and sharing truths about the world.",
+    "sourceTitle": "Brandon Sanderson • The Ten Orders of Knights Radiant",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-ten-orders-of-knights-radiant",
+    "id": "CB-002",
+    "options": [
+      "Truthwatchers",
+      "Edgedancers",
+      "Willshapers",
+      "Elsecallers",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 18,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "Foundations",
+    "prompt": "What creature does Shallan have the sailors lower her overboard to observe on the voyage from Kharbranth?",
+    "answer": "A santhid",
+    "distractors": [
+      "A chasmfiend",
+      "A larkin",
+      "A greatshell of the Reshi Isles"
+    ],
+    "explanation": "The sailors can see the dome of its shell. Shallan wants to see the animal beneath the surface so she can draw it.",
+    "sourceTitle": "Words of Radiance • Prologue and chapters 1–2",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-one-and-two/",
+    "id": "CB-003",
+    "options": [
+      "A greatshell of the Reshi Isles",
+      "A chasmfiend",
+      "A santhid",
+      "A larkin",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 13,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Edgedancer",
+    "category": "Foundations",
+    "prompt": "What local food does Lift tell Wyndle she intends to sample in all ten varieties during the Weeping in Yeddaw?",
+    "answer": "Pancakes",
+    "distractors": [
+      "Chouta",
+      "Lavish",
+      "Stew"
+    ],
+    "explanation": "Lift presents the local pancake tradition as her reason for the trip. She plans to steal one of each variety.",
+    "sourceTitle": "Tor / Reactor · Edgedancer, chapters 1–3",
+    "sourceUrl": "https://reactormag.com/a-new-stormlight-archive-story-arcanum-unbounded-edgedancer-chapters-1-3/",
+    "id": "CB-004",
+    "options": [
+      "Lavish",
+      "Pancakes",
+      "Stew",
+      "Chouta",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 13,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Dawnshard",
+    "category": "Foundations",
+    "prompt": "What kind of creature is Rysn’s companion Chiri-Chiri in Dawnshard?",
+    "answer": "A larkin",
+    "distractors": [
+      "A skyeel",
+      "A mandra",
+      "A chull"
+    ],
+    "explanation": "Chiri-Chiri belongs to a winged species that feeds on Stormlight. Rysn seeks help on Akinah when Chiri-Chiri falls ill.",
+    "sourceTitle": "Dragonsteel · Dawnshard, publisher’s description on Apple Books",
+    "sourceUrl": "https://books.apple.com/us/book/dawnshard/id1539206171",
+    "id": "CB-005",
+    "options": [
+      "A chull",
+      "A skyeel",
+      "An axehound",
+      "A mandra",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 17,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Roshar",
+    "book": "Wind and Truth",
+    "category": "Foundations",
+    "prompt": "Which kind of spren claims Lasting Integrity as its stronghold in Shadesmar?",
+    "answer": "Honorspren",
+    "distractors": [
+      "Inkspren",
+      "Cryptics",
+      "Highspren"
+    ],
+    "explanation": "Shallan looks out over the honorspren stronghold. Its residents can walk on the inner walls of its hollow structure.",
+    "sourceTitle": "Wind and Truth • Chapters 1–2",
+    "sourceUrl": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-chapters-1-and-2/",
+    "id": "CB-006",
+    "options": [
+      "Highspren",
+      "Cryptics",
+      "Honorspren",
+      "Inkspren",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 23,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Roshar",
+    "book": "Rhythm of War",
+    "category": "Foundations",
+    "prompt": "Which Fused leader spares one of Kaladin’s Windrunners after Kaladin lets a wounded Heavenly One go?",
+    "answer": "Leshwi",
+    "distractors": [
+      "Raboniel",
+      "Lezian",
+      "El"
+    ],
+    "explanation": "Kaladin cites Leshwi’s gesture to Dalinar as evidence of a growing understanding between the two groups of fliers.",
+    "sourceTitle": "Rhythm of War • Chapter 10",
+    "sourceUrl": "https://reactormag.com/read-rhythm-of-war-by-brandon-sanderson-chapter-ten//",
+    "id": "CB-007",
+    "options": [
+      "Raboniel",
+      "Lezian",
+      "Leshwi",
+      "El",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 13,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Wind and Truth",
+    "category": "Foundations",
+    "prompt": "When Kaladin becomes a Herald at the end of Wind and Truth, what does he call himself the Herald of?",
+    "answer": "Second Chances",
+    "distractors": [
+      "Kings",
+      "Lost Causes",
+      "Broken Oaths"
+    ],
+    "explanation": "Kaladin supplies his own title as the Heralds renew the Oathpact.",
+    "sourceTitle": "Wind and Truth • Chapter 144 passage quoted in Reactor’s reread",
+    "sourceUrl": "https://reactormag.com/wind-and-truth-reread-chapters-144-146/",
+    "id": "CB-008",
+    "options": [
+      "Kings",
+      "Broken Oaths",
+      "Lost Causes",
+      "Second Chances",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 10,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Way of Kings",
+    "category": "Close reading",
+    "prompt": "Whose statue does Szeth notice is missing from the palace’s row of Heralds on the night Gavilar dies?",
+    "answer": "Shalash’s",
+    "distractors": [
+      "Vedel’s",
+      "Pailiah’s",
+      "Chanarach’s"
+    ],
+    "explanation": "Szeth counts nine figures as he passes the Beggars’ Feast. He singles out Shalash as the one missing.",
+    "sourceTitle": "The Way of Kings • Prologue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-way-of-kings-prologue",
+    "id": "CB-009",
+    "options": [
+      "Pailiah’s",
+      "Chanarach’s",
+      "Shalash’s",
+      "Vedel’s",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 12,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "Close reading",
+    "prompt": "Hobber’s new forehead tattoo records his freedom. What does he ask the tattooist to add?",
+    "answer": "Bridge Four",
+    "distractors": [
+      "Stormblessed",
+      "House Kholin",
+      "The First Ideal"
+    ],
+    "explanation": "Hobber wants the design to preserve his connection to the other bridgemen, along with the proof that he was freed.",
+    "sourceTitle": "Words of Radiance • Prologue and chapters 1–2",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-one-and-two/",
+    "id": "CB-010",
+    "options": [
+      "The First Ideal",
+      "House Kholin",
+      "Stormblessed",
+      "The Cobalt Guard",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 3,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Edgedancer",
+    "category": "Close reading",
+    "prompt": "What sort of object’s souls did Wyndle cultivate into crystals in his Shadesmar garden?",
+    "answer": "Chairs",
+    "distractors": [
+      "Windows",
+      "Boots",
+      "Musical instruments"
+    ],
+    "explanation": "Wyndle reminisces about his collection to Lift. It included several kinds of chair and even thrones.",
+    "sourceTitle": "Tor / Reactor · Edgedancer, chapters 1–3",
+    "sourceUrl": "https://reactormag.com/a-new-stormlight-archive-story-arcanum-unbounded-edgedancer-chapters-1-3/",
+    "id": "CB-011",
+    "options": [
+      "Windows",
+      "Boots",
+      "Chairs",
+      "Musical instruments",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Wind and Truth",
+    "category": "Close reading",
+    "prompt": "What person does Thaidakar demand from Gavilar as payment for information on the night of the treaty feast?",
+    "answer": "Restares",
+    "distractors": [
+      "Axindweth",
+      "Amaram",
+      "Sadeas"
+    ],
+    "explanation": "Thaidakar expects Gavilar to gain Restares’s confidence and deliver him to the Ghostbloods’ agents for questioning.",
+    "sourceTitle": "Wind and Truth • Prologue",
+    "sourceUrl": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-preface-and-prologue/",
+    "id": "CB-012",
+    "options": [
+      "Axindweth",
+      "Restares",
+      "Sadeas",
+      "Amaram",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 7,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "Close reading",
+    "prompt": "When Toh asks Gavilar about sieges, which gemstones does Gavilar say help a city keep its soldiers fed?",
+    "answer": "Emeralds",
+    "distractors": [
+      "Rubies",
+      "Sapphires",
+      "Topazes"
+    ],
+    "explanation": "Gavilar explains that defenders can use their Soulcasters and a supply of emeralds to produce food.",
+    "sourceTitle": "Oathbringer • Chapters 19–21",
+    "sourceUrl": "https://reactormag.com/oathbringer-by-brandon-sanderson-chapters-19-21/",
+    "id": "CB-013",
+    "options": [
+      "Rubies",
+      "Sapphires",
+      "Topazes",
+      "Emeralds",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 10,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Rhythm of War",
+    "category": "Close reading",
+    "prompt": "In Navani’s lecture on fabrials, what metal cage lets a painrial diminish pain?",
+    "answer": "Tin",
+    "distractors": [
+      "Pewter",
+      "Bronze",
+      "Zinc"
+    ],
+    "explanation": "Navani uses a painrial as her example of a tin cage reducing an attribute nearby.",
+    "sourceTitle": "Rhythm of War • Chapter 10",
+    "sourceUrl": "https://reactormag.com/read-rhythm-of-war-by-brandon-sanderson-chapter-ten//",
+    "id": "CB-014",
+    "options": [
+      "Pewter",
+      "Bronze",
+      "Zinc",
+      "Tin",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 4,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Rhythm of War",
+    "category": "Close reading",
+    "prompt": "Which former citylord distracts the checkpoint guards while Lirin tries to move the Mink through Hearthstone?",
+    "answer": "Toralin Roshone",
+    "distractors": [
+      "Meridas Amaram",
+      "Torol Sadeas",
+      "Relis Ruthar"
+    ],
+    "explanation": "Roshone stumbles out with a stool. The guards enjoy watching the former lord struggle at his work as a crem scraper.",
+    "sourceTitle": "Rhythm of War • Prologue and chapter 1",
+    "sourceUrl": "https://reactormag.com/read-rhythm-of-war-by-brandon-sanderson-prologue-and-chapter-one/",
+    "id": "CB-015",
+    "options": [
+      "Meridas Amaram",
+      "Torol Sadeas",
+      "Toralin Roshone",
+      "Relis Ruthar",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 11,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Stormlight Archive",
+    "category": "Close reading",
+    "prompt": "Some Dustbringers dislike the popular name for their order. Which name do they prefer?",
+    "answer": "Releasers",
+    "distractors": [
+      "Listeners",
+      "Seekers",
+      "Stonebound"
+    ],
+    "explanation": "Sanderson’s account of the orders gives Releasers as their preferred name and describes their training in self-control.",
+    "sourceTitle": "Brandon Sanderson • The Ten Orders of Knights Radiant",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-ten-orders-of-knights-radiant",
+    "id": "CB-016",
+    "options": [
+      "Releasers",
+      "Listeners",
+      "Stonebound",
+      "Seekers",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 21,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Warbreaker / The Stormlight Archive",
+    "category": "Connections",
+    "prompt": "What weapon did Vasher see on Roshar that inspired the attempt to create Nightblood using Nalthian magic?",
+    "answer": "A Shardblade",
+    "distractors": [
+      "A half-shard shield",
+      "A Shardbow",
+      "A Soulcaster"
+    ],
+    "explanation": "Sanderson says Vasher took the idea of a Rosharan Shardblade home and tried to reproduce it with the magic he knew.",
+    "sourceTitle": "Brandon Sanderson • Holiday signing, December 2015",
+    "sourceUrl": "https://wob.coppermind.net/events/96-holiday-signing/#:~:text=some%20knowledge%20of%20Shardblades",
+    "id": "CB-017",
+    "options": [
+      "A Soulcaster",
+      "A Shardbow",
+      "A half-shard shield",
+      "A Shardblade",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 20,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Roshar",
+    "book": "Warbreaker / The Stormlight Archive",
+    "category": "Connections",
+    "prompt": "What locally available source of Investiture can sustain Vasher as a Returned while he is on Roshar?",
+    "answer": "Stormlight",
+    "distractors": [
+      "The Thrill",
+      "Old Magic boons",
+      "Voidbinding visions"
+    ],
+    "explanation": "Sanderson identifies accessible Stormlight as a major reason Vasher stays on Roshar. The question concerns his survival as a Returned.",
+    "sourceTitle": "Brandon Sanderson • Calamity Seattle signing, February 2016",
+    "sourceUrl": "https://wob.coppermind.net/events/4-calamity-seattle-signing/#:~:text=Can%20Vasher%20draw%20Breath%20from%20a%20highstorm",
+    "id": "CB-018",
+    "options": [
+      "The Thrill",
+      "Old Magic boons",
+      "Stormlight",
+      "Voidbinding visions",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 21,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "Connections",
+    "prompt": "When Gavilar explains how a fabrial holds a spren inside a gemstone, what part of listener biology does Eshonai immediately compare it to?",
+    "answer": "A gemheart holding a spren to give a listener a form",
+    "distractors": [
+      "Carapace growing back after a molt",
+      "A singer’s pulse matching a drumbeat",
+      "A listener’s ability to see farther into Shadesmar"
+    ],
+    "explanation": "Eshonai recognizes that humans have made a device that imitates a relationship central to her own people’s changes of form.",
+    "sourceTitle": "Oathbringer • Prologue",
+    "sourceUrl": "https://reactormag.com/oathbringer-brandon-sanderson-prologue/",
+    "id": "CB-019",
+    "options": [
+      "Carapace growing back after a molt",
+      "A listener’s ability to see farther into Shadesmar",
+      "A gemheart holding a spren to give a listener a form",
+      "A singer’s pulse matching a drumbeat",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 17,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Rhythm of War",
+    "category": "Connections",
+    "prompt": "What physical relic of Kaladin’s bridge crew did Navani incorporate into her airship’s deck?",
+    "answer": "The bridge they once carried",
+    "distractors": [
+      "Their cooking cauldron",
+      "Their first squad banner",
+      "Kaladin’s old spear haft"
+    ],
+    "explanation": "Navani obtained the crew’s permission to build their actual bridge into the deck of the Fourth Bridge.",
+    "sourceTitle": "Rhythm of War • Chapters 2–3",
+    "sourceUrl": "https://reactormag.com/read-rhythm-of-war-by-brandon-sanderson-chapters-two-and-three/",
+    "id": "CB-020",
+    "options": [
+      "The bridge they once carried",
+      "Their cooking cauldron",
+      "Their first squad banner",
+      "Kaladin’s old spear haft",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 10,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Wind and Truth",
+    "category": "Connections",
+    "prompt": "Syl can become Kaladin’s Blade. Which spren form his living Shardplate?",
+    "answer": "Windspren",
+    "distractors": [
+      "Honorspren",
+      "Gloryspren",
+      "Lifespren"
+    ],
+    "explanation": "Kaladin recognizes members of the flock of windspren outside his window as the spren of his armor.",
+    "sourceTitle": "Wind and Truth • Chapters 1–2",
+    "sourceUrl": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-chapters-1-and-2/",
+    "id": "CB-021",
+    "options": [
+      "Lifespren",
+      "Honorspren",
+      "Windspren",
+      "Gloryspren",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 17,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Rhythm of War",
+    "category": "Connections",
+    "prompt": "What object does Zahel use to explain to Kaladin his theory that Investiture can preserve a copy of a dead person?",
+    "answer": "A fossil",
+    "distractors": [
+      "A spanreed",
+      "An uncut gemstone",
+      "A dead Shardblade"
+    ],
+    "explanation": "Zahel likens his own condition to a fossil in which new material reproduces the shape of what was there before.",
+    "sourceTitle": "Rhythm of War • Chapter 15",
+    "sourceUrl": "https://reactormag.com/read-rhythm-of-war-by-brandon-sanderson-chapter-fifteen/",
+    "id": "CB-022",
+    "options": [
+      "A fossil",
+      "An uncut gemstone",
+      "A dead Shardblade",
+      "A spanreed",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 5,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Way of Kings",
+    "category": "Connections",
+    "prompt": "Which of Szeth’s Three Lashings turns a doorframe into the target for spears thrown at him in Gavilar’s palace?",
+    "answer": "A Reverse Lashing",
+    "distractors": [
+      "A Full Lashing",
+      "A Basic Lashing upward",
+      "A half-strength Basic Lashing sideways"
+    ],
+    "explanation": "The thrown spears veer into the frame he is touching. Earlier, he uses a Full Lashing to hold a different door shut.",
+    "sourceTitle": "The Way of Kings • Prologue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-way-of-kings-prologue",
+    "id": "CB-023",
+    "options": [
+      "A half-strength Basic Lashing sideways",
+      "A Basic Lashing upward",
+      "A Full Lashing",
+      "A Reverse Lashing",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 20,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "Connections",
+    "prompt": "When Shallan sketches the sea she glimpsed in Roshar’s Cognitive Realm, what does she draw in place of water?",
+    "answer": "Small glass beads",
+    "distractors": [
+      "Drops of mercury",
+      "Shifting black sand",
+      "Interlocking gemstone facets"
+    ],
+    "explanation": "Her sketch shows what she saw in Shadesmar. The water rocking the ship belongs to the Physical Realm.",
+    "sourceTitle": "Words of Radiance • Prologue and chapters 1–2",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-one-and-two/",
+    "id": "CB-024",
+    "options": [
+      "Small glass beads",
+      "Shifting black sand",
+      "Interlocking gemstone facets",
+      "Drops of mercury",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 17,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Stormlight Archive",
+    "category": "False premises",
+    "prompt": "What finally made Taln yield to his torturers and break his resolve before the True Desolation?",
+    "answer": "He never yielded to the torture.",
+    "distractors": [
+      "He heard that the other Heralds had died.",
+      "He was promised release for the Stonewards.",
+      "He was shown the destruction of Kholinar."
+    ],
+    "explanation": "Sanderson explicitly confirmed at JordanCon that Taln did not break. His return cannot be explained by an eventual surrender.",
+    "sourceTitle": "Brandon Sanderson • JordanCon 2021, question on Taln",
+    "sourceUrl": "https://wob.coppermind.net/events/472-jordancon-2021/#:~:text=Taln%20did%20not%20break",
+    "id": "CB-025",
+    "options": [
+      "He was promised release for the Stonewards.",
+      "He heard that the other Heralds had died.",
+      "He was shown the destruction of Kholinar.",
+      "He feared for the Heralds still on Roshar.",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 12,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Way of Kings",
+    "category": "False premises",
+    "prompt": "Which Shin funeral custom requires Szeth to wear white when he goes to kill Gavilar?",
+    "answer": "The white comes from a Parshendi custom.",
+    "distractors": [
+      "White is the mourning color of a Shin son.",
+      "Shin killers wear the intended victim’s funeral color.",
+      "Truthless must dress in the color of unmarked stone."
+    ],
+    "explanation": "The Parshendi who hired him specify white so the king can see his killer coming.",
+    "sourceTitle": "The Way of Kings • Prologue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-way-of-kings-prologue",
+    "id": "CB-026",
+    "options": [
+      "Shin killers wear the intended victim’s funeral color.",
+      "Truthless must dress in the color of unmarked stone.",
+      "White is the mourning color of a Shin son.",
+      "The white comes from a Parshendi custom.",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 7,
+    "witnessModel": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "False premises",
+    "prompt": "On the night Gavilar dies, what method does Jasnah instruct Liss to use to assassinate Aesudan?",
+    "answer": "Jasnah instructs Liss to watch Aesudan.",
+    "distractors": [
+      "Jasnah specifies a Shardblade.",
+      "Jasnah specifies poison in her wine.",
+      "Jasnah leaves the method of murder to Liss."
+    ],
+    "explanation": "Jasnah changes which envelope she hands over. The commission she actually gives Liss is surveillance.",
+    "sourceTitle": "Words of Radiance • Prologue and chapters 1–2",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-one-and-two/",
+    "id": "CB-027",
+    "options": [
+      "Jasnah instructs Liss to watch Aesudan.",
+      "Jasnah specifies poison in her wine.",
+      "Jasnah leaves the method of murder to Liss.",
+      "Jasnah specifies a Shardblade.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 4,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Dawnshard",
+    "category": "False premises",
+    "prompt": "On Navani’s expedition in Dawnshard, which Radiant flies Rysn all the way to Akinah?",
+    "answer": "Rysn makes the journey by sea.",
+    "distractors": [
+      "The Lopen carries her alone.",
+      "Huio and the Lopen alternate Lashings.",
+      "Kaladin carries her in his Shardplate."
+    ],
+    "explanation": "Radiants approaching Akinah from the air lose their Stormlight. The expedition needs Rysn’s ship.",
+    "sourceTitle": "Dragonsteel · Dawnshard, publisher’s description on Apple Books",
+    "sourceUrl": "https://books.apple.com/us/book/dawnshard/id1539206171",
+    "id": "CB-028",
+    "options": [
+      "Huio and the Lopen alternate Lashings.",
+      "The Lopen carries her alone.",
+      "Kaladin carries her in his Shardplate.",
+      "Rysn makes the journey by sea.",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 8,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Rhythm of War",
+    "category": "False premises",
+    "prompt": "During Adolin’s trial, whom does Maya accuse of forcing the Recreance on her and the other spren against their will?",
+    "answer": "She says the spren chose their sacrifice.",
+    "distractors": [
+      "She names the Bondsmiths who directed the withdrawal.",
+      "She blames Melishi alone.",
+      "She accuses the honorspren of ordering the sacrifice."
+    ],
+    "explanation": "Maya’s testimony challenges the history the court takes for granted. The spren took part in the decision.",
+    "sourceTitle": "Rhythm of War • Chapter 94 passages quoted in Reactor’s reread",
+    "sourceUrl": "https://reactormag.com/rhythm-of-war-reread-chapter-ninety-four/",
+    "id": "CB-029",
+    "options": [
+      "She accuses the honorspren of ordering the sacrifice.",
+      "She says the spren chose their sacrifice.",
+      "She names the Bondsmiths who directed the withdrawal.",
+      "She blames Melishi alone.",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 15,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "False premises",
+    "prompt": "What does Dalinar demand in return for surrendering his pain to Odium at Thaylen Field?",
+    "answer": "He refuses to surrender his pain.",
+    "distractors": [
+      "He demands the safety of his sons.",
+      "He demands forgiveness from Evi.",
+      "He demands command of the Fused."
+    ],
+    "explanation": "Odium offers to take the guilt for Dalinar’s past. Dalinar insists on bearing it himself.",
+    "sourceTitle": "Oathbringer • Chapter 118 passages quoted in Reactor’s reread",
+    "sourceUrl": "https://reactormag.com/oathbringer-reread-chapter-one-hundred-eighteen/",
+    "id": "CB-030",
+    "options": [
+      "He demands forgiveness from Evi.",
+      "He demands the safety of his sons.",
+      "He refuses to surrender his pain.",
+      "He demands command of the Fused.",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 17,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Roshar",
+    "book": "Wind and Truth",
+    "category": "False premises",
+    "prompt": "Through which palace gate does Thaidakar leave Kholinar in person after threatening Gavilar on the night of his assassination?",
+    "answer": "He appears remotely as an image projected by a floating sphere.",
+    "distractors": [
+      "He rides out through the same gate as the listeners.",
+      "He exits through the palace servants’ gate.",
+      "He slips through the king’s private garden gate."
+    ],
+    "explanation": "His luminous likeness collapses to a sphere. It shrinks and slips under the door.",
+    "sourceTitle": "Wind and Truth • Prologue",
+    "sourceUrl": "https://reactormag.com/read-wind-and-truth-by-brandon-sanderson-preface-and-prologue/",
+    "id": "CB-031",
+    "options": [
+      "He appears remotely as an image projected by a floating sphere.",
+      "He exits through the palace servants’ gate.",
+      "He slips through the king’s private garden gate.",
+      "He rides out through the same gate as the listeners.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 10,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "False premises",
+    "prompt": "What special ink lets the tattooist cover Kaladin’s slave brands permanently when Bridge Four first gets its freedom tattoos?",
+    "answer": "No ink takes on his forehead that day.",
+    "distractors": [
+      "The tattooist uses powdered sapphire ink.",
+      "The tattooist switches to Parshendi shell pigment.",
+      "Bridge Four mixes glyphward ink with crem."
+    ],
+    "explanation": "The tattooist makes more than one attempt. Kaladin’s skin pushes the ink out and the brands remain visible.",
+    "sourceTitle": "Words of Radiance • Prologue and chapters 1–2",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-one-and-two/",
+    "id": "CB-032",
+    "options": [
+      "The tattooist switches to Parshendi shell pigment.",
+      "The tattooist uses powdered sapphire ink.",
+      "Bridge Four mixes glyphward ink with crem.",
+      "No ink takes on his forehead that day.",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 11,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Mistborn: The Final Empire",
+    "category": "Foundations",
+    "prompt": "Who leads the thieving crew that brings Vin into the plot against the Lord Ruler?",
+    "answer": "Kelsier",
+    "distractors": [
+      "Marsh",
+      "Dockson",
+      "Clubs"
+    ],
+    "explanation": "Kelsier recruits Vin into the rebellion and teaches her to use her Mistborn abilities.",
+    "sourceTitle": "Brandon Sanderson · The original Mistborn trilogy",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy",
+    "id": "CB-033",
+    "options": [
+      "Marsh",
+      "Ham",
+      "Clubs",
+      "Dockson",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 27,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Mistborn: The Final Empire",
+    "category": "Close reading",
+    "prompt": "When Spook and Kelsier start talking in street slang and Ham joins in, which member of the crew is left asking what they are saying?",
+    "answer": "Breeze",
+    "distractors": [
+      "Clubs",
+      "Dockson",
+      "Yeden"
+    ],
+    "explanation": "Sanderson’s translation of the exchange shows the others teasing Breeze right in front of him.",
+    "sourceTitle": "Sanderson’s annotations · Mistborn: The Final Empire, chapter 24",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-chapter-twenty-four-part-one",
+    "id": "CB-034",
+    "options": [
+      "Breeze",
+      "Clubs",
+      "Yeden",
+      "Dockson",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 13,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Mistborn: The Final Empire",
+    "category": "False premises",
+    "prompt": "What injury does Vin inflict on the Lord Ruler by striking the figure she sees when she burns the Eleventh Metal?",
+    "answer": "None. The figure is an intangible image.",
+    "distractors": [
+      "She reopens a wound from the Terris mountains.",
+      "She blinds him in one eye.",
+      "She breaks the arm holding his metalmind."
+    ],
+    "explanation": "Malatium shows Vin a version of the Lord Ruler’s past. The image has no body she can injure.",
+    "sourceTitle": "Sanderson’s annotations · Mistborn: The Final Empire, chapter 38",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-chapter-thirty-eight-part-one",
+    "id": "CB-035",
+    "options": [
+      "None. The figure is an intangible image.",
+      "She breaks the arm holding his metalmind.",
+      "She reopens a wound from the Terris mountains.",
+      "She blinds him in one eye.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 10,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Well of Ascension",
+    "category": "Foundations",
+    "prompt": "Which Terriswoman takes Elend’s education as a king in hand?",
+    "answer": "Tindwyl",
+    "distractors": [
+      "Mare",
+      "Allrianne",
+      "Beldre"
+    ],
+    "explanation": "Tindwyl coaches Elend on how to carry himself as a ruler.",
+    "sourceTitle": "Sanderson’s annotations · The Well of Ascension, chapter 14",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-2-chapter-fourteen",
+    "id": "CB-036",
+    "options": [
+      "Beldre",
+      "Lestibournes",
+      "Mare",
+      "Allrianne",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 19,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Well of Ascension",
+    "category": "Close reading",
+    "prompt": "At the Assembly meeting to choose a king for Luthadel, whom does Elend himself nominate?",
+    "answer": "Lord Penrod",
+    "distractors": [
+      "Lord Cett",
+      "Straff Venture",
+      "Himself"
+    ],
+    "explanation": "Elend puts Penrod forward. Penrod then returns the nomination, something Elend had hoped he might do.",
+    "sourceTitle": "Sanderson’s annotations · The Well of Ascension, chapter 31",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-2-chapter-thirty-one",
+    "id": "CB-037",
+    "options": [
+      "Himself",
+      "Straff Venture",
+      "Lord Cett",
+      "Lord Penrod",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Well of Ascension",
+    "category": "Foundations",
+    "prompt": "What being gains its freedom when Vin gives up the power at the Well of Ascension?",
+    "answer": "Ruin",
+    "distractors": [
+      "Preservation",
+      "The Lord Ruler",
+      "The Stormfather"
+    ],
+    "explanation": "Ruin manipulated the prophecies so that Vin would release the power and free its prisoner.",
+    "sourceTitle": "Sanderson’s annotations · The Well of Ascension, epilogue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-2-epilogue",
+    "id": "CB-038",
+    "options": [
+      "Ruin",
+      "Preservation",
+      "The Lord Ruler",
+      "The Stormfather",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 24,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Hero of Ages",
+    "category": "False premises",
+    "prompt": "Where were the First Generation kandra raised as young mistwraiths before they received their Blessings?",
+    "answer": "They began as human Feruchemists and had no mistwraith childhood.",
+    "distractors": [
+      "In caverns beneath the Pits of Hathsin",
+      "In the Terris breeding pens",
+      "On the plains around Urteau"
+    ],
+    "explanation": "The First Generation had lived as humans before the Lord Ruler changed them. Later generations spent their early lives as mistwraiths.",
+    "sourceTitle": "Sanderson’s annotations · The Hero of Ages, chapter 68",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-3-chapter-sixty-eight",
+    "id": "CB-040",
+    "options": [
+      "On the plains around Urteau",
+      "They began as human Feruchemists and had no mistwraith childhood.",
+      "In caverns beneath the Pits of Hathsin",
+      "In the Terris breeding pens",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Hero of Ages",
+    "category": "Connections",
+    "prompt": "Before TenSoon appears in Vin’s story under another identity, which noble house is he attached to in the first Mistborn novel?",
+    "answer": "House Venture",
+    "distractors": [
+      "House Renoux",
+      "House Hasting",
+      "House Lekal"
+    ],
+    "explanation": "TenSoon is mentioned as the Venture kandra in an early Elend scene. He also witnesses Kelsier’s fight in the square.",
+    "sourceTitle": "Sanderson’s annotations · The Hero of Ages, chapter 52",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-3-chapter-fifty-two",
+    "id": "CB-041",
+    "options": [
+      "House Hasting",
+      "House Renoux",
+      "House Lekal",
+      "House Venture",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 10,
+    "witnessModel": "mistralai/mistral-large-4-0"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Mistborn: Secret History",
+    "category": "False premises",
+    "prompt": "Which clue in Terris finally tells Hoid where to find the Well of Ascension on his return to Scadrial?",
+    "answer": "He already knew the location and used the Well before going to Terris.",
+    "distractors": [
+      "Kwaan’s directions in a steel inscription",
+      "A map supplied by the Synod",
+      "Footprints left in the frost by Vin"
+    ],
+    "explanation": "Sanderson clarified the order of events when Secret History appeared. Once the route through the Pits was destroyed, Hoid needed the Well to return to Scadrial.",
+    "sourceTitle": "Sanderson’s FAQ · Hoid and the Well of Ascension",
+    "sourceUrl": "https://faq.brandonsanderson.com/knowledge-base/is-_____-hoid/",
+    "id": "CB-042",
+    "options": [
+      "Kwaan’s directions in a steel inscription",
+      "He already knew the location and used the Well before going to Terris.",
+      "Footprints left in the frost by Vin",
+      "A map supplied by the Synod",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Mistborn: Secret History",
+    "category": "Connections",
+    "prompt": "Who explains to Kelsier that sixteen people divided Adonalsium’s power among themselves?",
+    "answer": "Khriss",
+    "distractors": [
+      "Nazh",
+      "Hoid",
+      "Ati"
+    ],
+    "explanation": "In Secret History, Khriss gives Kelsier a short history of the Shattering and the first Ascensions.",
+    "sourceTitle": "Sanderson’s FAQ · What is a Shard?",
+    "sourceUrl": "https://faq.brandonsanderson.com/knowledge-base/what-is-a-shard/",
+    "id": "CB-043",
+    "options": [
+      "Khriss",
+      "Ati",
+      "Nazh",
+      "Hoid",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 6,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Eleventh Metal",
+    "category": "Connections",
+    "prompt": "Who teaches Kelsier Allomancy in the prequel The Eleventh Metal?",
+    "answer": "Gemmel",
+    "distractors": [
+      "Marsh",
+      "Breeze",
+      "Rashek"
+    ],
+    "explanation": "Before Kelsier trains Vin, he is himself an apprentice to the Mistborn Gemmel.",
+    "sourceTitle": "Brandon Sanderson · The Eleventh Metal, opening scene",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/mistborn-the-eleventh-metal",
+    "id": "CB-044",
+    "options": [
+      "Rashek",
+      "Marsh",
+      "Breeze",
+      "Gemmel",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 13,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Alloy of Law",
+    "category": "Foundations",
+    "prompt": "Wax can Push on metal through Allomancy. What can he change about himself using his Feruchemy?",
+    "answer": "His weight",
+    "distractors": [
+      "His health",
+      "His eyesight",
+      "His age"
+    ],
+    "explanation": "Wax pairs his Steelpushing with the ability to make his body lighter or heavier.",
+    "sourceTitle": "Brandon Sanderson · The Wax and Wayne series",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-wax-wayne-series",
+    "id": "CB-045",
+    "options": [
+      "His age",
+      "His weight",
+      "His eyesight",
+      "His health",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 20,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Alloy of Law",
+    "category": "Connections",
+    "prompt": "What divine name spoken by Miles Hundredlives also appears among the old faiths Sazed described in the original trilogy?",
+    "answer": "Trell",
+    "distractors": [
+      "Jaddeth",
+      "Domi",
+      "Patji"
+    ],
+    "explanation": "Sanderson singles out Miles’s reference to Trell as a link to a religion that Sazed preserved.",
+    "sourceTitle": "Sanderson’s annotations · The Alloy of Law, chapter 15",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-the-alloy-of-law-chapter-fifteen",
+    "id": "CB-046",
+    "options": [
+      "Trell",
+      "Jaddeth",
+      "Domi",
+      "Patji",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 10,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Alloy of Law",
+    "category": "False premises",
+    "prompt": "By what factor does Wayne’s speed bubble multiply a coin’s exit speed when he throws it at someone outside?",
+    "answer": "It grants no such speed boost.",
+    "distractors": [
+      "By the square of the time ratio",
+      "By the ratio of time inside to time outside",
+      "By a fixed factor of sixteen"
+    ],
+    "explanation": "The boundary absorbs the excess kinetic energy and deflects an object leaving the bubble.",
+    "sourceTitle": "Sanderson’s annotations · The Alloy of Law, chapter 12",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-the-alloy-of-law-chapter-twelve",
+    "id": "CB-047",
+    "options": [
+      "By a fixed factor of sixteen",
+      "It grants no such speed boost.",
+      "By the ratio of time inside to time outside",
+      "By the square of the time ratio",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Shadows of Self",
+    "category": "Close reading",
+    "prompt": "Which two names does Wax initially give Steris for his side of the wedding guest list in Shadows of Self?",
+    "answer": "Wayne and Ranette",
+    "distractors": [
+      "Wayne and Marasi",
+      "Ranette and MeLaan",
+      "Marasi and Aradel"
+    ],
+    "explanation": "Steris has carefully drawn up her own list. Wax has supplied just two names, along with a caveat about Ranette’s likelihood of shooting him.",
+    "sourceTitle": "Tor / Reactor · Shadows of Self, chapter two",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-shadows-of-self-chapter-two/",
+    "id": "CB-048",
+    "options": [
+      "Wayne and Marasi",
+      "Marasi and Aradel",
+      "Wayne and Ranette",
+      "Ranette and MeLaan",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 3,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Shadows of Self",
+    "category": "False premises",
+    "prompt": "Which stolen masterpiece does Winsting put up for auction as cover for selling his Senate vote?",
+    "answer": "He offers a painting he made himself.",
+    "distractors": [
+      "A pre-Catacendre portrait of the Last Emperor",
+      "A landscape recovered from Urteau",
+      "A stolen portrait of the Ascendant Warrior"
+    ],
+    "explanation": "Winsting displays his own painting of a reclining woman. The bidders care about the influence they can buy.",
+    "sourceTitle": "Tor / Reactor · Shadows of Self, chapter one",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-shadows-of-self-chapter-one/",
+    "id": "CB-049",
+    "options": [
+      "A stolen portrait of the Ascendant Warrior",
+      "He offers a painting he made himself.",
+      "A pre-Catacendre portrait of the Last Emperor",
+      "A landscape recovered from Urteau",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 2,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Bands of Mourning",
+    "category": "Close reading",
+    "prompt": "What does the glass dome of the Survivorist church where Wax plans to marry Steris let the congregation do on special occasions?",
+    "answer": "Let the mists into the church",
+    "distractors": [
+      "Project a map of the Field of Rebirth",
+      "Ring the bells by Steelpushing",
+      "Cast the Survivor’s shadow across the altar"
+    ],
+    "explanation": "The dome gives worshippers a view of the mists. Its glass sections also open inward so the mists can enter.",
+    "sourceTitle": "Tor / Reactor · The Bands of Mourning, chapter one",
+    "sourceUrl": "https://reactormag.com/excerpts-brandon-sanderson-the-bands-of-mourning-chapter-one/",
+    "id": "CB-050",
+    "options": [
+      "Let the mists into the church",
+      "Cast the Survivor’s shadow across the altar",
+      "Ring the bells by Steelpushing",
+      "Project a map of the Field of Rebirth",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Bands of Mourning",
+    "category": "Foundations",
+    "prompt": "Which city south of Elendel does Wax travel to in pursuit of the lead about the Bands and his sister Telsin?",
+    "answer": "New Seran",
+    "distractors": [
+      "Bilming",
+      "Weathering",
+      "Urteau"
+    ],
+    "explanation": "The evidence brought back by a kandra researcher sends Wax and his companions to New Seran.",
+    "sourceTitle": "Tor / Reactor · The Bands of Mourning, chapter four",
+    "sourceUrl": "https://reactormag.com/excerpts-brandon-sanderson-the-bands-of-mourning-chapter-four/",
+    "id": "CB-051",
+    "options": [
+      "Bilming",
+      "Urteau",
+      "Weathering",
+      "Fadrex City",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 16,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Lost Metal",
+    "category": "Close reading",
+    "prompt": "In the childhood prologue of The Lost Metal, what paying work has Wayne taken over at home while his mother works at the mine?",
+    "answer": "Washing laundry",
+    "distractors": [
+      "Repairing miners’ boots",
+      "Baking bread for the crews",
+      "Mending canvas ore sacks"
+    ],
+    "explanation": "The washing once paid his mother’s wages. Wayne does it after she takes a job pushing minecarts.",
+    "sourceTitle": "Tor / Reactor · The Lost Metal, prologue",
+    "sourceUrl": "https://reactormag.com/read-the-lost-metal-by-brandon-sanderson-prologue-and-chapters-1-2/",
+    "id": "CB-052",
+    "options": [
+      "Washing laundry",
+      "Baking bread for the crews",
+      "Mending canvas ore sacks",
+      "Repairing miners’ boots",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 11,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Lost Metal",
+    "category": "Foundations",
+    "prompt": "What political office does Wax hold in Elendel during The Lost Metal?",
+    "answer": "Senator",
+    "distractors": [
+      "Governor",
+      "Mayor of the Fourth Octant",
+      "Constable-General"
+    ],
+    "explanation": "Wax and Steris try to expose corruption in Elendel’s Senate while the Set extends its influence there.",
+    "sourceTitle": "Brandon Sanderson · The Wax and Wayne series",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/the-mistborn-saga-the-wax-wayne-series",
+    "id": "CB-053",
+    "options": [
+      "Constable-General",
+      "Senator",
+      "Governor",
+      "Mayor of the Fourth Octant",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 19,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Lost Metal",
+    "category": "Close reading",
+    "prompt": "When Marasi and Wayne uncover a stockpile of weapons early in The Lost Metal, which Outer City are the weapons bound for?",
+    "answer": "Bilming",
+    "distractors": [
+      "New Seran",
+      "Dulsing",
+      "Weathering"
+    ],
+    "explanation": "The shipment gives the investigators a lead on the Set’s activities in Bilming.",
+    "sourceTitle": "Tor / Reactor · The Lost Metal, chapters three and four",
+    "sourceUrl": "https://reactormag.com/read-the-lost-metal-by-brandon-sanderson-chapters-3-4/",
+    "id": "CB-054",
+    "options": [
+      "Weathering",
+      "Bilming",
+      "New Seran",
+      "Dulsing",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 16,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Foundations",
+    "prompt": "What is the name of Sarene’s seon?",
+    "answer": "Ashe",
+    "distractors": [
+      "Ien",
+      "Dio",
+      "Opa"
+    ],
+    "explanation": "Ashe shares his name with the Aon for light.",
+    "sourceTitle": "Brandon Sanderson · Elantris glossary",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/elantris-glossary",
+    "id": "CB-055",
+    "options": [
+      "Dio",
+      "Opa",
+      "Sarin",
+      "Ien",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 18,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Connections",
+    "prompt": "When Raoden looks at Elantris and its four surrounding cities together, which Aon does he recognize in their layout?",
+    "answer": "Rao",
+    "distractors": [
+      "Tia",
+      "Ehe",
+      "Ene"
+    ],
+    "explanation": "The city complex forms Aon Rao on a gigantic scale. Raoden can repair it by supplying the missing line for the chasm.",
+    "sourceTitle": "Sanderson’s annotations · Elantris, chapter 61",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-elantris-61-3",
+    "id": "CB-056",
+    "options": [
+      "Tia",
+      "Rao",
+      "Ehe",
+      "Ene",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 15,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Close reading",
+    "prompt": "What piece of information does Adien supply when Raoden prepares to use Aon Tia to reach Sarene?",
+    "answer": "The distance he needs to travel",
+    "distractors": [
+      "The direction Sarene is facing",
+      "The time since Sarene left Elantris",
+      "The extra line for the new chasm"
+    ],
+    "explanation": "Adien provides the length measurement for the jump. A seon can supply the direction.",
+    "sourceTitle": "Sanderson’s annotations · Elantris, chapter 62",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-elantris-62-2",
+    "id": "CB-057",
+    "options": [
+      "The extra line for the new chasm",
+      "The distance he needs to travel",
+      "The direction Sarene is facing",
+      "The time since Sarene left Elantris",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 9,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "False premises",
+    "prompt": "In the published novel Elantris, what does Mad Prince Eton offer Hrathen in exchange for instruction from Fjorden?",
+    "answer": "Eton’s dealings with Hrathen appear only in deleted material.",
+    "distractors": [
+      "A seat on Arelon’s ruling council",
+      "His conversion to Shu-Dereth",
+      "The surrender of Teod’s fleet"
+    ],
+    "explanation": "Sanderson removed Eton’s entire plot during revisions. The negotiations appear in the deleted scenes he later posted.",
+    "sourceTitle": "Brandon Sanderson · Elantris deleted scenes, The Mad Prince",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/elantris-deleted-scenes-the-mad-prince",
+    "id": "CB-058",
+    "options": [
+      "Eton’s dealings with Hrathen appear only in deleted material.",
+      "The surrender of Teod’s fleet",
+      "A seat on Arelon’s ruling council",
+      "His conversion to Shu-Dereth",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 7,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Foundations",
+    "prompt": "Which of the four cities around Elantris becomes King Iadon’s capital after the Reod?",
+    "answer": "Kae",
+    "distractors": [
+      "Toa",
+      "Ato",
+      "Dae"
+    ],
+    "explanation": "Iadon rules from Kae. The other three outer cities lose their populations after Elantris falls.",
+    "sourceTitle": "Brandon Sanderson · Elantris glossary",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/elantris-glossary",
+    "id": "CB-059",
+    "options": [
+      "Toa",
+      "Kae",
+      "Dae",
+      "Ato",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 18,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Close reading",
+    "prompt": "What is the Jindoeese discipline in Elantris whose deliberately slow movements build into a fast martial form?",
+    "answer": "ChayShan",
+    "distractors": [
+      "AonDor",
+      "Dakhor",
+      "Resealing"
+    ],
+    "explanation": "Jindoeese practitioners also use ChayShan to sharpen concentration and keep fit.",
+    "sourceTitle": "Brandon Sanderson · Elantris glossary",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/elantris-glossary",
+    "id": "CB-060",
+    "options": [
+      "ChayShan",
+      "AonDor",
+      "Dakhor",
+      "Resealing",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 12,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Connections",
+    "prompt": "Chronologically, how does Shai’s story in The Emperor’s Soul relate to the events of Elantris?",
+    "answer": "It comes afterward, within the lifetimes of the Elantris cast.",
+    "distractors": [
+      "It ends centuries before Raoden is born.",
+      "It takes place during Raoden’s first week in Elantris.",
+      "It begins a millennium after the Reod."
+    ],
+    "explanation": "Sanderson places the two stories in different regions of Sel, close enough in time for characters from Elantris still to be alive.",
+    "sourceTitle": "Sanderson’s FAQ · How The Emperor’s Soul fits with Elantris",
+    "sourceUrl": "https://faq.brandonsanderson.com/knowledge-base/how-does-the-emperors-soul-fit-in-with-elantris/",
+    "id": "CB-061",
+    "options": [
+      "It comes afterward, within the lifetimes of the Elantris cast.",
+      "It begins a millennium after the Reod.",
+      "It takes place during Raoden’s first week in Elantris.",
+      "It ends centuries before Raoden is born.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 11,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Connections",
+    "prompt": "What makes the Moon Scepter especially valuable to Hoid’s study of Selish magic?",
+    "answer": "It helps him interpret symbols across Selish magic systems.",
+    "distractors": [
+      "It lets him draw Aons anywhere without adjustments.",
+      "It stores the memories of past Elantrians.",
+      "It turns any metal into soulstone."
+    ],
+    "explanation": "Sanderson compares the Scepter to a translation key for the different magical scripts on Sel.",
+    "sourceTitle": "Words of Brandon · Shadows of Self London signing, entry 25",
+    "sourceUrl": "https://wob.coppermind.net/events/80-shadows-of-self-london-uk-signing/#:~:text=How%20exactly%20is%20the%20Moon%20Scepter",
+    "id": "CB-062",
+    "options": [
+      "It lets him draw Aons anywhere without adjustments.",
+      "It helps him interpret symbols across Selish magic systems.",
+      "It turns any metal into soulstone.",
+      "It stores the memories of past Elantrians.",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 9,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Close reading",
+    "prompt": "What does Shai use to scratch her observations into the leg of her prison bunk?",
+    "answer": "A fork bent to leave one tine exposed",
+    "distractors": [
+      "The loose hinge of her spectacles",
+      "A sharpened sliver of soulstone",
+      "A hairpin taken from a Striker"
+    ],
+    "explanation": "Shai bends back all but one tine. Her notes record the prison wall’s different stones.",
+    "sourceTitle": "Brandon Sanderson · The Emperor’s Soul, prologue and Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-063",
+    "options": [
+      "A sharpened sliver of soulstone",
+      "A fork bent to leave one tine exposed",
+      "The loose hinge of her spectacles",
+      "A hairpin taken from a Striker",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 3,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "False premises",
+    "prompt": "Which arbiter sits on the throne in Ashravan’s place during the official hundred days of mourning for his death?",
+    "answer": "The mourning is for the empress. Ashravan is alive.",
+    "distractors": [
+      "Gaotona governs from the throne.",
+      "Frava takes the throne as regent.",
+      "The Glory Faction installs its own arbiter."
+    ],
+    "explanation": "The empress died in the attack. The arbiters use her mourning period to explain why the living emperor has disappeared from public view.",
+    "sourceTitle": "Brandon Sanderson · The Emperor’s Soul, prologue and Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-064",
+    "options": [
+      "Frava takes the throne as regent.",
+      "The mourning is for the empress. Ashravan is alive.",
+      "Gaotona governs from the throne.",
+      "The Glory Faction installs its own arbiter.",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 6,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "False premises",
+    "prompt": "Which of Shai’s five confiscated Essence Marks does Frava have Shai apply to Ashravan to restore his mind?",
+    "answer": "None. Those five stamps are attuned to Shai herself.",
+    "distractors": [
+      "The mark for Shai’s scholar identity",
+      "The mark for Shai’s warrior identity",
+      "The mark that erases Shai’s training as a Forger"
+    ],
+    "explanation": "Frava offers to return Shai’s personal stamps as payment. Ashravan requires a new stamp built around his own history.",
+    "sourceTitle": "Brandon Sanderson · The Emperor’s Soul, prologue and Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-065",
+    "options": [
+      "The mark for Shai’s scholar identity",
+      "The mark that erases Shai’s training as a Forger",
+      "None. Those five stamps are attuned to Shai herself.",
+      "The mark for Shai’s warrior identity",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 10,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Close reading",
+    "prompt": "Which rival faction stands to gain if the Heritage Faction cannot present Emperor Ashravan at court when his mourning period ends?",
+    "answer": "The Glory Faction",
+    "distractors": [
+      "The Imperial Strikers",
+      "The Reestablishment Faction",
+      "The Grands’ Assembly"
+    ],
+    "explanation": "The Glory Faction is poised to put forward Ashravan’s successor. This threat drives the arbiters to employ Shai.",
+    "sourceTitle": "Brandon Sanderson · The Emperor’s Soul, prologue and Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-066",
+    "options": [
+      "The Glory Faction",
+      "The Grands’ Assembly",
+      "The Imperial Strikers",
+      "The Reestablishment Faction",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 13,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Close reading",
+    "prompt": "In the opening prison scene, what does Vasher add to the head of his little straw figure before Awakening it?",
+    "answer": "An eyebrow hair",
+    "distractors": [
+      "A thread from his scarf",
+      "A drop of his blood",
+      "A sliver of fingernail"
+    ],
+    "explanation": "Vasher gives the figure a hair from his own eyebrow as a focus. He uses threads from his cloak to tie the straw together.",
+    "sourceTitle": "Warbreaker, prologue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-prologue",
+    "id": "CB-067",
+    "options": [
+      "A sliver of fingernail",
+      "A scrap of leather",
+      "A thread from his scarf",
+      "A drop of his blood",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 5,
+    "witnessModel": "anthropic/claude-fable-5.2"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Foundations",
+    "prompt": "What do the D’Denir statues in T’Telir do the day after the God King regains his voice?",
+    "answer": "March after the departing Lifeless army",
+    "distractors": [
+      "Seal the entrances to the Court of Gods",
+      "Carry the Returned to the border of Idris",
+      "Pull down the walls of the God King’s palace"
+    ],
+    "explanation": "Vivenna watches a thousand stone soldiers leave the city. Their stone feet give them a good chance of overtaking the flesh Lifeless.",
+    "sourceTitle": "Warbreaker, epilogue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-epilogue",
+    "id": "CB-068",
+    "options": [
+      "Pull down the walls of the God King’s palace",
+      "March after the departing Lifeless army",
+      "Seal the entrances to the Court of Gods",
+      "Carry the Returned to the border of Idris",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 4,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Connections",
+    "prompt": "Which of the Five Scholars does Lightsong see drawing Nightblood when he studies the abstract painting in court?",
+    "answer": "Shashara",
+    "distractors": [
+      "Yesteel",
+      "Arsteel",
+      "Denth"
+    ],
+    "explanation": "Sanderson identifies the figure as Shashara. Lightsong sees her at the Battle of Twilight Falls, wielding the sword she and Vasher created together.",
+    "sourceTitle": "Sanderson’s annotation to Warbreaker, chapter twenty-six",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-warbreaker-chapter-twenty-six",
+    "id": "CB-069",
+    "options": [
+      "Denth",
+      "Arsteel",
+      "Shashara",
+      "Yesteel",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 10,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "False premises",
+    "prompt": "How does Vasher take Denth’s Breaths away during their final duel?",
+    "answer": "The transfer goes the other way. Vasher gives Denth fifty Breaths.",
+    "distractors": [
+      "He uses Nightblood to draw Denth’s Breaths into the blade.",
+      "Denth gives his Breaths away in exchange for his memories.",
+      "Vasher reclaims Breaths he had stored in Denth’s clothing."
+    ],
+    "explanation": "Receiving the Breaths overwhelms Denth for an instant. That gives Vasher time to seize a dagger.",
+    "sourceTitle": "Warbreaker, chapter fifty-seven",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-chapter-fifty-seven",
+    "id": "CB-070",
+    "options": [
+      "The transfer goes the other way. Vasher gives Denth fifty Breaths.",
+      "He uses Nightblood to draw Denth’s Breaths into the blade.",
+      "Denth gives his Breaths away in exchange for his memories.",
+      "Vasher reclaims Breaths he had stored in Denth’s clothing.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 6,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "False premises",
+    "prompt": "What bargain did Peacegiver make with Kalad to gain command of the Phantoms at the end of the Manywar?",
+    "answer": "There was no bargain. Both names belonged to Vasher.",
+    "distractors": [
+      "Peacegiver traded his divine Breath for the army.",
+      "Kalad accepted Nightblood in exchange for the Commands.",
+      "There was no exchange of Commands. Kalad gave Peacegiver his throne instead."
+    ],
+    "explanation": "Vasher tells Vivenna that people remembered his change of heart as the work of two different men.",
+    "sourceTitle": "Warbreaker, epilogue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-epilogue",
+    "id": "CB-072",
+    "options": [
+      "There was no bargain. Both names belonged to Vasher.",
+      "There was no exchange of Commands. Kalad gave Peacegiver his throne instead.",
+      "Kalad accepted Nightblood in exchange for the Commands.",
+      "Peacegiver traded his divine Breath for the army.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 9,
+    "witnessModel": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Connections",
+    "prompt": "What does Vasher tell Vivenna accounts for the Royal Locks in her family?",
+    "answer": "Descent from a Returned",
+    "distractors": [
+      "A divine Breath passed down intact",
+      "An Awakening performed on the royal bloodline",
+      "The weekly Breath offerings of Idris"
+    ],
+    "explanation": "Vasher connects the royal family’s ability to change hair color with the Returned ability to alter their appearance.",
+    "sourceTitle": "Warbreaker, epilogue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-epilogue",
+    "id": "CB-073",
+    "options": [
+      "A divine Breath passed down intact",
+      "Descent from a Returned",
+      "An Awakening performed on the royal bloodline",
+      "The weekly Breath offerings of Idris",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 16,
+    "witnessModel": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+    "world": "Lumar",
+    "book": "Tress of the Emerald Sea",
+    "category": "Foundations",
+    "prompt": "Which two substances do children on the Rock learn can render spores harmless?",
+    "answer": "Salt and silver",
+    "distractors": [
+      "Salt and aluminum",
+      "Silver and iron",
+      "Iron and sunlight"
+    ],
+    "explanation": "The saltstone of Diggen’s Point offers real protection. Even a trace of water can otherwise set off a live spore.",
+    "sourceTitle": "Tress of the Emerald Sea, chapter one",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/tress-chapter-one",
+    "id": "CB-074",
+    "options": [
+      "Iron and sunlight",
+      "Silver and iron",
+      "Salt and silver",
+      "Salt and aluminum",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 11,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Lumar",
+    "book": "Tress of the Emerald Sea",
+    "category": "Close reading",
+    "prompt": "What picture replaces a letter in Charlie’s fourth package to Tress?",
+    "answer": "Two gloved hands holding each other",
+    "distractors": [
+      "A cup shattered on a palace floor",
+      "A butterfly flying above a red sea",
+      "The Rock seen from a ship’s deck"
+    ],
+    "explanation": "The hands are on the card. The butterfly over the sea is painted on the cup inside the same package.",
+    "sourceTitle": "Tress of the Emerald Sea, chapter four",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/tress-chapter-four",
+    "id": "CB-076",
+    "options": [
+      "Two gloved hands holding each other",
+      "The Rock seen from a ship’s deck",
+      "A cup shattered on a palace floor",
+      "A butterfly flying above a red sea",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 1,
+    "witnessModel": "anthropic/claude-fable-5.2"
+  },
+  {
+    "world": "Lumar",
+    "book": "Tress of the Emerald Sea",
+    "category": "Connections",
+    "prompt": "Which familiar Cosmere traveler personally delivers Charlie’s first cup to Tress, and in what role?",
+    "answer": "Hoid, working as a cabin boy",
+    "distractors": [
+      "Nazh, working as a ship’s cartographer",
+      "Hoid, serving as the duke’s steward",
+      "Khriss, traveling as a royal envoy"
+    ],
+    "explanation": "The narrator identifies himself when the cabin boy brings the porcelain cup to the Rock.",
+    "sourceTitle": "Tress of the Emerald Sea, chapter four",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/tress-chapter-four",
+    "id": "CB-078",
+    "options": [
+      "Nazh, working as a ship’s cartographer",
+      "Hoid, serving as the duke’s steward",
+      "Hoid, working as a cabin boy",
+      "Khriss, traveling as a royal envoy",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 1,
+    "witnessModel": "anthropic/claude-fable-5.2"
+  },
+  {
+    "world": "Komashi",
+    "book": "Yumi and the Nightmare Painter",
+    "category": "Connections",
+    "prompt": "Which Shard does the narrator say Splintered herself near the world of Yumi and Painter?",
+    "answer": "Virtuosity",
+    "distractors": [
+      "Ambition",
+      "Devotion",
+      "Autonomy"
+    ],
+    "explanation": "While describing the star visible through the shroud, the narrator places Virtuosity’s Splintering nearby.",
+    "sourceTitle": "Yumi and the Nightmare Painter, chapter one",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/yumi-chapter-one",
+    "id": "CB-079",
+    "options": [
+      "Autonomy",
+      "Dominion",
+      "Ambition",
+      "Devotion",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 16,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Komashi",
+    "book": "Yumi and the Nightmare Painter",
+    "category": "False premises",
+    "prompt": "Which color of hion ink do Kilahito’s nightmare painters reserve for the final stroke that binds a nightmare?",
+    "answer": "They work in black ink on white, with no special hion color.",
+    "distractors": [
+      "They save magenta for the final stroke.",
+      "They use aqua to close the painted outline.",
+      "They blend both hion colors for the final stroke."
+    ],
+    "explanation": "The painters’ ink produces shades of gray and black that resemble a nightmare. The hion along the streets supplies the city’s familiar colors.",
+    "sourceTitle": "Yumi and the Nightmare Painter, chapter three",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/yumi-chapter-three",
+    "id": "CB-082",
+    "options": [
+      "They save magenta for the final stroke.",
+      "They use aqua to close the painted outline.",
+      "They work in black ink on white, with no special hion color.",
+      "They blend both hion colors for the final stroke.",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 8,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Komashi",
+    "book": "Yumi and the Nightmare Painter",
+    "category": "Connections",
+    "prompt": "How can Design handle bowls and cook for customers while wearing a human disguise in Kilahito?",
+    "answer": "Her Lightweaving includes projections that exert force.",
+    "distractors": [
+      "She inhabits a Lifeless body loaned by an Awakener.",
+      "Her hion lines move a set of hidden mechanical arms.",
+      "She borrowed a physical body from a yoki-hijo."
+    ],
+    "explanation": "The narrator describes a Lightweaving framework attached to Design’s Cognitive aspect. The force projections let her interact with physical objects.",
+    "sourceTitle": "Yumi and the Nightmare Painter, chapter five",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/yumi-chapter-five",
+    "id": "CB-083",
+    "options": [
+      "She borrowed a physical body from a yoki-hijo.",
+      "Her Lightweaving includes projections that exert force.",
+      "She inhabits a Lifeless body loaned by an Awakener.",
+      "Her hion lines move a set of hidden mechanical arms.",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 3,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Canticle",
+    "book": "The Sunlit Man",
+    "category": "Connections",
+    "prompt": "Which former apprentice of Hoid travels under the name Nomad in The Sunlit Man?",
+    "answer": "Sigzil",
+    "distractors": [
+      "Skar",
+      "Rlain",
+      "Drehy"
+    ],
+    "explanation": "In his commentary after the preview chapters, Sanderson explicitly identifies Nomad as Sigzil.",
+    "sourceTitle": "Sanderson’s commentary on The Sunlit Man",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/first-look-at-secret-project-four-hint-its-stormlight-adjacent",
+    "id": "CB-084",
+    "options": [
+      "Teft",
+      "Rlain",
+      "Drehy",
+      "Skar",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 16,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Canticle",
+    "book": "The Sunlit Man",
+    "category": "Close reading",
+    "prompt": "After a Skip leaves Nomad nearly drained, what threshold does he need to exceed to Connect to the planet and speak its language?",
+    "answer": "2,000 Breath Equivalent Units",
+    "distractors": [
+      "200 Breath Equivalent Units",
+      "1,000 Breath Equivalent Units",
+      "20,000 Breath Equivalent Units"
+    ],
+    "explanation": "Nomad can manipulate Connection once his reserves exceed two thousand BEUs. On arrival he has too little Investiture to understand the locals.",
+    "sourceTitle": "The Sunlit Man, chapter one",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-sunlit-man-chapter-one",
+    "id": "CB-085",
+    "options": [
+      "20,000 Breath Equivalent Units",
+      "200 Breath Equivalent Units",
+      "1,000 Breath Equivalent Units",
+      "2,000 Breath Equivalent Units",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 2,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Canticle",
+    "book": "The Sunlit Man",
+    "category": "False premises",
+    "prompt": "How much energy does Nomad take directly from Canticle’s dawn sunlight to recharge for his next Skip?",
+    "answer": "None. The incoming sunlight is too kinetic for him to absorb.",
+    "distractors": [
+      "Enough to gain Connection, but not enough to Skip.",
+      "A full Skip’s worth once Auxiliary shields him.",
+      "Only what reaches him through the skin of his hands."
+    ],
+    "explanation": "Nomad distinguishes a stored source, such as a power cell, from an energy blast or the planet’s lethal sunlight.",
+    "sourceTitle": "The Sunlit Man, chapter six",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-sunlit-man-chapter-six",
+    "id": "CB-086",
+    "options": [
+      "Enough to gain Connection, but not enough to Skip.",
+      "A full Skip’s worth once Auxiliary shields him.",
+      "None. The incoming sunlight is too kinetic for him to absorb.",
+      "Only what reaches him through the skin of his hands.",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 4,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Canticle",
+    "book": "The Sunlit Man",
+    "category": "Foundations",
+    "prompt": "On the podium in the arena, what turns the captured woman into one of the ember people?",
+    "answer": "A spear deposits a glowing ember in her chest.",
+    "distractors": [
+      "She swallows ash from one of the dead prisoners.",
+      "She survives the first rays of the local sun.",
+      "The manacles channel power from the crowd into her."
+    ],
+    "explanation": "Nomad watches the spear withdraw while its ember stays behind. Heat spreads from the captive’s chest.",
+    "sourceTitle": "The Sunlit Man, chapter four",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-sunlit-man-chapter-four",
+    "id": "CB-087",
+    "options": [
+      "She swallows ash from one of the dead prisoners.",
+      "The manacles channel power from the crowd into her.",
+      "She survives the first rays of the local sun.",
+      "A spear deposits a glowing ember in her chest.",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 2,
+    "witnessModel": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+    "world": "Canticle",
+    "book": "The Sunlit Man",
+    "category": "Close reading",
+    "prompt": "What three names does Rebeke use when she addresses the women of Beacon’s Greater Good?",
+    "answer": "Confidence, Compassion, and Contemplation",
+    "distractors": [
+      "Confidence, Courage, and Conviction",
+      "Compassion, Conscience, and Constancy",
+      "Contemplation, Consolation, and Concord"
+    ],
+    "explanation": "Rebeke greets the three women individually before reporting that she has brought her sister back.",
+    "sourceTitle": "The Sunlit Man, chapter eight",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-sunlit-man-chapter-eight",
+    "id": "CB-088",
+    "options": [
+      "Compassion, Conscience, and Constancy",
+      "Confidence, Compassion, and Contemplation",
+      "Contemplation, Consolation, and Concord",
+      "Confidence, Courage, and Conviction",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 1,
+    "witnessModel": "anthropic/claude-fable-5.2"
+  },
+  {
+    "world": "First of the Sun",
+    "book": "Sixth of the Dusk",
+    "category": "Foundations",
+    "prompt": "What unnerving sight keeps appearing to the trapper in Sixth of the Dusk as a warning of danger?",
+    "answer": "His own dead body",
+    "distractors": [
+      "A black bird without a shadow",
+      "The sea rising above the forest canopy",
+      "His canoe burning on an empty beach"
+    ],
+    "explanation": "Dusk repeatedly encounters visions of his own corpse on Patji. The sight foreshadows ways he might die.",
+    "sourceTitle": "Sanderson’s introduction to Sixth of the Dusk",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/sixth-of-the-dusk-solo-ebook-out-now",
+    "id": "CB-089",
+    "options": [
+      "His canoe burning on an empty beach",
+      "A black bird without a shadow",
+      "His own dead body",
+      "The sea rising above the forest canopy",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 14,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "First of the Sun",
+    "book": "Sixth of the Dusk",
+    "category": "Foundations",
+    "prompt": "Which of Dusk’s Aviar keeps a predator beneath his canoe from sensing his mind?",
+    "answer": "Kokerlii",
+    "distractors": [
+      "Sak",
+      "Kokerlii and Sak acting together",
+      "A visiting Aviar following the canoe"
+    ],
+    "explanation": "Kokerlii perches on the prow while the dark shape passes under the boat. Dusk relies on the bird’s protective aura.",
+    "sourceTitle": "Sanderson’s text in Isles of the Emberdark, chapter two",
+    "sourceUrl": "https://reactormag.com/excerpts-isles-of-the-emberdark-by-brandon-sanderson/",
+    "id": "CB-090",
+    "options": [
+      "A visiting Aviar following the canoe",
+      "Sak",
+      "Kokerlii",
+      "Kokerlii and Sak acting together",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 12,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "First of the Sun",
+    "book": "Isles of the Emberdark",
+    "category": "Close reading",
+    "prompt": "What information does Dusk’s old stick-and-string map record that he can check with his fingers in the sea?",
+    "answer": "Wave patterns around particular islands",
+    "distractors": [
+      "Changes in temperature at each reef",
+      "Tidal depths inside each harbor",
+      "The salinity of currents between islands"
+    ],
+    "explanation": "Dusk feels how islands interrupt the waves. The pattern represented by the sticks helps him set his course.",
+    "sourceTitle": "Reactor excerpt, chapter two",
+    "sourceUrl": "https://reactormag.com/excerpts-isles-of-the-emberdark-by-brandon-sanderson/",
+    "id": "CB-091",
+    "options": [
+      "Changes in temperature at each reef",
+      "Wave patterns around particular islands",
+      "The salinity of currents between islands",
+      "Tidal depths inside each harbor",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 4,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "First of the Sun",
+    "book": "Isles of the Emberdark",
+    "category": "Connections",
+    "prompt": "What do the silver manacles on Starling’s wrists prevent her from doing?",
+    "answer": "Returning to her dragon form",
+    "distractors": [
+      "Crossing from the physical realm into the emberdark",
+      "Speaking to other dragons",
+      "Touching the controls of the Dynamic"
+    ],
+    "explanation": "Starling experiences exile in a human body. The manacles bind her in that form and keep her abilities out of reach.",
+    "sourceTitle": "Reactor excerpt, chapter twenty-two",
+    "sourceUrl": "https://reactormag.com/excerpts-isles-of-the-emberdark-by-brandon-sanderson/",
+    "id": "CB-093",
+    "options": [
+      "Touching the controls of the Dynamic",
+      "Returning to her dragon form",
+      "Speaking to other dragons",
+      "Crossing from the physical realm into the emberdark",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 5,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Threnody",
+    "book": "Shadows for Silence in the Forests of Hell",
+    "category": "Foundations",
+    "prompt": "Alongside the rules about fire and blood, which movement does a Simple Rule specifically forbid at night in the Forests of Hell?",
+    "answer": "Running",
+    "distractors": [
+      "Walking backward",
+      "Climbing a tree",
+      "Crossing running water"
+    ],
+    "explanation": "The time of day matters to this rule. A homesteader can travel through the Forests at night while keeping to a walk.",
+    "sourceTitle": "Sanderson’s introduction to Shadows for Silence",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/hugo-nomination-deadline-shadows-for-silence-ebook-release-updates",
+    "id": "CB-094",
+    "options": [
+      "Crossing running water",
+      "Climbing a tree",
+      "Running",
+      "Walking backward",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 15,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Threnody",
+    "book": "Shadows for Silence in the Forests of Hell",
+    "category": "Close reading",
+    "prompt": "What cover lets Chesterton Divide and his men walk openly into Silence Montane’s waystop?",
+    "answer": "They pose as merchants from the fort.",
+    "distractors": [
+      "They wear the insignia of a governor’s escort.",
+      "They claim to be homesteaders looking for lost kin.",
+      "They pass themselves off as bounty hunters."
+    ],
+    "explanation": "Silence recognizes faces she has studied on the bounty sheets. The merchant disguise lets the gang stop for news without drawing attention.",
+    "sourceTitle": "Reactor excerpt from Shadows for Silence",
+    "sourceUrl": "https://reactormag.com/dangerous-women-shadows-for-silence-in-the-forests-of-hell-excerpt-brandon-sanderson/",
+    "id": "CB-095",
+    "options": [
+      "They pose as merchants from the fort.",
+      "They wear the insignia of a governor’s escort.",
+      "They pass themselves off as bounty hunters.",
+      "They claim to be homesteaders looking for lost kin.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 3,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Threnody",
+    "book": "Shadows for Silence in the Forests of Hell",
+    "category": "False premises",
+    "prompt": "What large bounty does Silence expect to collect on the long-necked man William Ann first points out?",
+    "answer": "He is a petty horse thief worth only about two measures of silver.",
+    "distractors": [
+      "He carries the governor’s reward for Chesterton Divide.",
+      "His bounty would cover the waystop’s supplies for two years.",
+      "He is the White Fox, whose bounty exceeds the entire gang’s."
+    ],
+    "explanation": "Silence identifies the man as Lamentation Winebare. The lucrative bounty belongs to a different group in the room.",
+    "sourceTitle": "Reactor excerpt from Shadows for Silence",
+    "sourceUrl": "https://reactormag.com/dangerous-women-shadows-for-silence-in-the-forests-of-hell-excerpt-brandon-sanderson/",
+    "id": "CB-096",
+    "options": [
+      "He carries the governor’s reward for Chesterton Divide.",
+      "He is wanted for attacking the fort’s silver traders.",
+      "His bounty would cover the waystop’s supplies for two years.",
+      "He is the White Fox, whose bounty exceeds the entire gang’s.",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 1,
+    "witnessModel": "anthropic/claude-opus-5.5"
+  },
+  {
+    "world": "Taldain",
+    "book": "White Sand",
+    "category": "Foundations",
+    "prompt": "What title does Kenton hold when he must persuade Lossand’s ruling council to spare the surviving Sand Masters?",
+    "answer": "Lord Mastrell",
+    "distractors": [
+      "Lord Artisan",
+      "Lord Admiral",
+      "High Prelan"
+    ],
+    "explanation": "After the ambush, Kenton leads the remaining Sand Masters and must argue for their future before the council.",
+    "sourceTitle": "Sanderson’s introduction to White Sand, volume two",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/white-sand-graphic-novels",
+    "id": "CB-097",
+    "options": [
+      "High Prelan",
+      "Lord Mastrell",
+      "Lord Admiral",
+      "Lord Artisan",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 15,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Taldain",
+    "book": "White Sand",
+    "category": "Close reading",
+    "prompt": "At the Sand Masters’ childhood testing, whose handful of sand flashes so brightly that Praxton is left blinking?",
+    "answer": "Drile",
+    "distractors": [
+      "Kenton",
+      "Traiben",
+      "Tendel"
+    ],
+    "explanation": "Tendel asks the boy’s identity after the flash and audible crack. Praxton identifies Drile as the son of Reenst Rile.",
+    "sourceTitle": "White Sand testing scene, prose and graphic versions",
+    "sourceUrl": "https://reactormag.com/arcanum-unbounded-reveals-what-brandon-sandersons-white-sand-looked-like-before-it-became-a-graphic-novel/",
+    "id": "CB-098",
+    "options": [
+      "Traiben",
+      "Drile",
+      "Kenton",
+      "Tendel",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 3,
+    "witnessModel": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+    "world": "Taldain",
+    "book": "White Sand",
+    "category": "False premises",
+    "prompt": "Which other planet does Khriss travel from to meet Kenton in White Sand?",
+    "answer": "She comes from Darkside on Taldain itself.",
+    "distractors": [
+      "She leaves Sel aboard a Darkside expedition.",
+      "She arrives from Scadrial by way of Darkside.",
+      "She crosses from Roshar with a delegation of scholars."
+    ],
+    "explanation": "Khriss is a Darksider. She and Kenton come from opposite sides of the same world.",
+    "sourceTitle": "Sanderson’s introduction to the White Sand omnibus",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/white-sand-graphic-novels",
+    "id": "CB-099",
+    "options": [
+      "She arrives from Scadrial by way of Darkside.",
+      "She crosses from Roshar with a delegation of scholars.",
+      "She leaves Sel aboard a Darkside expedition.",
+      "She comes from Darkside on Taldain itself.",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 17,
+    "witnessModel": "reflection/beam-1.0-501b-a23b"
+  },
+  {
+    "world": "Taldain",
+    "book": "Arcanum Unbounded",
+    "category": "Connections",
+    "prompt": "Which scholar wrote both the in-world planetary essays in Arcanum Unbounded and the Ars Arcanum material Sanderson describes in its introduction?",
+    "answer": "Khriss",
+    "distractors": [
+      "Nazh",
+      "Hoid",
+      "Frost"
+    ],
+    "explanation": "Sanderson credits Khriss with the essays as well as the technical appendices familiar from the novels.",
+    "sourceTitle": "Sanderson’s introduction to Arcanum Unbounded",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/introducing-arcanum-unbounded",
+    "id": "CB-100",
+    "options": [
+      "Nazh",
+      "Frost",
+      "Khriss",
+      "Hoid",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 18,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Way of Kings",
+    "category": "Foundations",
+    "prompt": "What profession was Kaladin training for before he became a spearman?",
+    "answer": "Surgeon",
+    "distractors": [
+      "Ardent",
+      "Apothecary",
+      "Quartermaster"
+    ],
+    "explanation": "Kaladin begins as a medical apprentice. His training later helps him keep wounded bridgemen alive.",
+    "sourceTitle": "Brandon Sanderson · The Way of Kings",
+    "sourceUrl": "https://www.brandonsanderson.com/pages/wok",
+    "id": "CB-101",
+    "options": [
+      "Apothecary",
+      "Quartermaster",
+      "Surgeon",
+      "Ardent",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 19,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Roshar",
+    "book": "The Way of Kings",
+    "category": "Close reading",
+    "prompt": "As Gavilar lies dying, what does he ask his brother to find?",
+    "answer": "The most important words a man can say",
+    "distractors": [
+      "The last city of the Knights Radiant",
+      "The bearer of the missing Honorblade",
+      "The words that will free the Heralds"
+    ],
+    "explanation": "Szeth writes Gavilar’s request in the king’s blood so that Dalinar will receive it.",
+    "sourceTitle": "The Way of Kings · Prologue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-way-of-kings-prologue",
+    "id": "CB-102",
+    "options": [
+      "The most important words a man can say",
+      "The last city of the Knights Radiant",
+      "The words that will free the Heralds",
+      "The bearer of the missing Honorblade",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 17,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "Foundations",
+    "prompt": "Whom does Jasnah propose as a husband for Shallan to help protect House Davar?",
+    "answer": "Adolin Kholin",
+    "distractors": [
+      "Renarin Kholin",
+      "Elhokar Kholin",
+      "Amaram"
+    ],
+    "explanation": "Jasnah has already contacted Dalinar’s family about a match. Adolin would bring the Davars into an alliance with the Kholins.",
+    "sourceTitle": "Words of Radiance · Chapter 1",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-one-and-two/",
+    "id": "CB-103",
+    "options": [
+      "Amaram",
+      "Renarin Kholin",
+      "Elhokar Kholin",
+      "Relis Ruthar",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 20,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "Connections",
+    "prompt": "When Shallan and Jasnah discuss the spren that appears on Shallan’s sketchpad, what name does Jasnah say its kind use for themselves?",
+    "answer": "Cryptics",
+    "distractors": [
+      "Inkspren",
+      "Mistspren",
+      "Reachers"
+    ],
+    "explanation": "Jasnah explains that humans might call them liespren. The spren’s own name is Cryptics.",
+    "sourceTitle": "Words of Radiance · Chapter 3",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-three-four-and-five/",
+    "id": "CB-104",
+    "options": [
+      "Reachers",
+      "Inkspren",
+      "Mistspren",
+      "Cryptics",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 13,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Words of Radiance",
+    "category": "False premises",
+    "prompt": "Which of Dalinar Kholin’s sons succeeded Gavilar as king of Alethkar immediately after the assassination?",
+    "answer": "Neither son. Elhokar, Dalinar’s nephew, succeeded Gavilar.",
+    "distractors": [
+      "His elder son, Adolin",
+      "His younger son, Renarin",
+      "His two sons as joint rulers"
+    ],
+    "explanation": "Gavilar’s son Elhokar inherited the throne. Dalinar is Elhokar’s uncle.",
+    "sourceTitle": "Words of Radiance · Chapter 4",
+    "sourceUrl": "https://reactormag.com/excerpt-brandon-sanderson-words-of-radiance-prologue-chapter-three-four-and-five/",
+    "id": "CB-105",
+    "options": [
+      "His two sons as joint rulers",
+      "Neither son. Elhokar, Dalinar’s nephew, succeeded Gavilar.",
+      "His elder son, Adolin",
+      "His younger son, Renarin",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 23,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "Close reading",
+    "prompt": "At the feast with Toh, what does young Dalinar originally want his missing knife for?",
+    "answer": "To cut the pork he has been served",
+    "distractors": [
+      "To open a letter from a scout",
+      "To carve a glyphward into the table",
+      "To cut a loose strap on his armor"
+    ],
+    "explanation": "Dalinar goes out into the highstorm because he cannot cut his dinner. He encounters a threat to Gavilar during the errand.",
+    "sourceTitle": "Oathbringer · Chapter 19",
+    "sourceUrl": "https://reactormag.com/oathbringer-by-brandon-sanderson-chapters-19-21/",
+    "id": "CB-106",
+    "options": [
+      "To carve a glyphward into the table",
+      "To cut a loose strap on his armor",
+      "To cut the pork he has been served",
+      "To open a letter from a scout",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 10,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "Connections",
+    "prompt": "Which of the Unmade does Shallan discover behind the copycat killings in Urithiru?",
+    "answer": "Re-Shephir, the Midnight Mother",
+    "distractors": [
+      "Sja-anat, the Taker of Secrets",
+      "Ashertmarn, the Heart of the Revel",
+      "Nergaoul, the source of the Thrill"
+    ],
+    "explanation": "Shallan finds Re-Shephir beneath the tower. Its creatures have been imitating violent acts, including the murder of Sadeas.",
+    "sourceTitle": "Oathbringer · Chapters 28–30",
+    "sourceUrl": "https://reactormag.com/oathbringer-by-brandon-sanderson-chapters-28-30/",
+    "id": "CB-107",
+    "options": [
+      "Ashertmarn, the Heart of the Revel",
+      "Re-Shephir, the Midnight Mother",
+      "Sja-anat, the Taker of Secrets",
+      "Nergaoul, the source of the Thrill",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 14,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "False premises",
+    "prompt": "Which Vorin ardent agrees to officiate at Dalinar and Navani’s wedding in Urithiru?",
+    "answer": "No ardent officiates. The Stormfather accepts their oaths.",
+    "distractors": [
+      "Kadash, Dalinar’s longtime confidant",
+      "Rushu, the scholar",
+      "Chanada, the senior ardent"
+    ],
+    "explanation": "The ardents decline to marry them. Dalinar turns to the Stormfather, who blesses the union.",
+    "sourceTitle": "Oathbringer · Chapter 4",
+    "sourceUrl": "https://reactormag.com/oathbringer-by-brandon-sanderson-chapters-4-6/",
+    "id": "CB-108",
+    "options": [
+      "Rushu, the scholar",
+      "Kadash, Dalinar’s longtime confidant",
+      "Ladent, one of the ardents Navani approached",
+      "Chanada, the senior ardent",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 6,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Roshar",
+    "book": "Oathbringer",
+    "category": "Foundations",
+    "prompt": "At the start of his journey home to Hearthstone in Oathbringer, how does Kaladin get from Urithiru to the Shattered Plains?",
+    "answer": "He uses an Oathgate.",
+    "distractors": [
+      "He flies the whole way using Lashings.",
+      "He follows a caravan down the mountain.",
+      "He passes through Shadesmar on a spren ship."
+    ],
+    "explanation": "Kaladin takes the Oathgate for the first leg. He flies northwest from the Plains toward his hometown.",
+    "sourceTitle": "Oathbringer · Chapter 5",
+    "sourceUrl": "https://reactormag.com/oathbringer-by-brandon-sanderson-chapters-4-6/",
+    "id": "CB-109",
+    "options": [
+      "He uses an Oathgate.",
+      "He flies the whole way using Lashings.",
+      "He follows a caravan down the mountain.",
+      "He passes through Shadesmar on a spren ship.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 16,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Scadrial",
+    "book": "Mistborn: The Final Empire",
+    "category": "False premises",
+    "prompt": "Why does Alendi adopt the title of Lord Ruler after his expedition to the Well of Ascension?",
+    "answer": "Alendi never becomes the Lord Ruler. Rashek does.",
+    "distractors": [
+      "To conceal his past as a Terris packman",
+      "To unite the people against the Deepness",
+      "To claim authority over the newly founded priesthood"
+    ],
+    "explanation": "Alendi is the man whose logbook Vin reads. The ruler she confronts at the end is Rashek.",
+    "sourceTitle": "Sanderson’s annotations · The Final Empire, chapter 38",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-chapter-thirty-eight-part-four",
+    "id": "CB-110",
+    "options": [
+      "To claim authority over the newly founded priesthood",
+      "To conceal his past as a Terris packman",
+      "To unite the people against the Deepness",
+      "Alendi never becomes the Lord Ruler. Rashek does.",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 17,
+    "witnessModel": "openai/gpt-6.2-sol"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Well of Ascension",
+    "category": "Close reading",
+    "prompt": "Which kandra does Vin resent for consuming Kelsier’s body after his death in Luthadel?",
+    "answer": "OreSeur",
+    "distractors": [
+      "TenSoon",
+      "KanPaar",
+      "MeLaan"
+    ],
+    "explanation": "OreSeur knew about Kelsier’s plan beforehand. Vin directs some of her grief at the kandra who helped him carry it out.",
+    "sourceTitle": "Sanderson’s annotations · The Well of Ascension, chapter 22",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-2-chapter-twenty-two",
+    "id": "CB-111",
+    "options": [
+      "KanPaar",
+      "TenSoon",
+      "OreSeur",
+      "MeLaan",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 13,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Well of Ascension",
+    "category": "Connections",
+    "prompt": "Early in The Well of Ascension, which Allomantic metal is becoming scarce because Kelsier destroyed the Pits of Hathsin?",
+    "answer": "Atium",
+    "distractors": [
+      "Electrum",
+      "Aluminum",
+      "Duralumin"
+    ],
+    "explanation": "As Elend searches for the Lord Ruler’s cache, he worries about Vin meeting an opponent who still has atium. Destroying the Pits cut off the known mine.",
+    "sourceTitle": "The Well of Ascension · Chapter 3",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/mistborn-2-chapter-three",
+    "id": "CB-112",
+    "options": [
+      "Duralumin",
+      "Electrum",
+      "Aluminum",
+      "Malatium",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 21,
+    "witnessModel": "mistralai/mistral-large-4-0"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Hero of Ages",
+    "category": "Close reading",
+    "prompt": "When Marsh confronts Vin in Luthadel near the end of The Hero of Ages, what does he remove from her, allowing her to draw in the mists?",
+    "answer": "Her earring",
+    "distractors": [
+      "Her metal vial",
+      "Her mistcloak",
+      "Her wedding ring"
+    ],
+    "explanation": "The earring is a Hemalurgic spike. Its removal frees Vin to take in Preservation’s power.",
+    "sourceTitle": "Sanderson’s annotations · The Hero of Ages, chapter 72",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-3-chapter-seventy-two-part-2",
+    "id": "CB-113",
+    "options": [
+      "Her mistcloak",
+      "Her earring",
+      "Her wedding ring",
+      "Her metal vial",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 19,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Hero of Ages",
+    "category": "Connections",
+    "prompt": "Which two Shards does Sazed take up to become the being later known as Harmony?",
+    "answer": "Ruin and Preservation",
+    "distractors": [
+      "Ruin and Cultivation",
+      "Preservation and Endowment",
+      "Devotion and Dominion"
+    ],
+    "explanation": "The two powers at work throughout the original Mistborn trilogy come to share a single Vessel in Sazed.",
+    "sourceTitle": "Sanderson’s annotations · The Alloy of Law, chapter 3",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-the-alloy-of-law-chapter-three",
+    "id": "CB-114",
+    "options": [
+      "Ruin and Preservation",
+      "Ruin and Cultivation",
+      "Preservation and Endowment",
+      "Devotion and Dominion",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 25,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Hero of Ages",
+    "category": "False premises",
+    "prompt": "In Urteau, what new order does Ruin give Spook in Kelsier’s voice immediately after Spook pulls out his spike?",
+    "answer": "The voice Spook hears then is Kelsier himself.",
+    "distractors": [
+      "To kill Beldre before she can escape",
+      "To burn down the ministry building",
+      "To seize the city from the Citizen"
+    ],
+    "explanation": "Sanderson identifies the voice at that moment as the real Kelsier. Removing the spike marks the change.",
+    "sourceTitle": "Sanderson’s annotations · The Hero of Ages, chapter 58",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-mistborn-3-chapter-fifty-eight-part-3",
+    "id": "CB-115",
+    "options": [
+      "To put the spike back in",
+      "To burn down the ministry building",
+      "To seize the city from the Citizen",
+      "To kill Beldre before she can escape",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 8,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Alloy of Law",
+    "category": "Foundations",
+    "prompt": "Who is the fellow lawkeeper Wax accidentally shoots while trying to bring in Bloody Tan in the prologue to The Alloy of Law?",
+    "answer": "Lessie",
+    "distractors": [
+      "Marasi",
+      "Ranette",
+      "Steris"
+    ],
+    "explanation": "Tan has Lessie at gunpoint. He pulls her into the path of Wax’s shot.",
+    "sourceTitle": "The Alloy of Law · Prologue",
+    "sourceUrl": "https://reactormag.com/the-alloy-of-law-excerpt/",
+    "id": "CB-116",
+    "options": [
+      "Marasi",
+      "Steris",
+      "Ranette",
+      "Lessie",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 11,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Alloy of Law",
+    "category": "False premises",
+    "prompt": "Which metal does Wayne burn to heal his wounds during the robbery at the wedding in The Alloy of Law?",
+    "answer": "He taps stored health from a Feruchemical gold metalmind.",
+    "distractors": [
+      "He burns pewter to heal.",
+      "He burns gold to heal.",
+      "He burns bendalloy to heal."
+    ],
+    "explanation": "Wayne is a Bloodmaker. He spends time sick to store health in a metalmind and draws on that reserve when hurt.",
+    "sourceTitle": "The Alloy of Law · Chapter 6",
+    "sourceUrl": "https://reactormag.com/the-alloy-of-law-chapter-six/",
+    "id": "CB-117",
+    "options": [
+      "He taps stored health from a Feruchemical gold metalmind.",
+      "He burns gold to heal.",
+      "He burns bendalloy to heal.",
+      "He burns pewter to heal.",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 16,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813"
+  },
+  {
+    "world": "Scadrial",
+    "book": "The Bands of Mourning",
+    "category": "Close reading",
+    "prompt": "What does VenDell specifically ask Wax to recover for the wounded kandra researcher ReLuur?",
+    "answer": "His missing spike",
+    "distractors": [
+      "His camera",
+      "His metal bracers",
+      "His bones"
+    ],
+    "explanation": "ReLuur has already returned from the expedition. The kandra want the missing spike back so their brother can recover.",
+    "sourceTitle": "The Bands of Mourning · Chapter 3",
+    "sourceUrl": "https://reactormag.com/excerpts-brandon-sanderson-the-bands-of-mourning-chapter-three/",
+    "id": "CB-118",
+    "options": [
+      "His camera",
+      "His metal bracers",
+      "His missing spike",
+      "His bones",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 12,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Foundations",
+    "prompt": "Vivenna spends her childhood preparing to marry Hallandren’s God King. Which sister does King Dedelin send in her place?",
+    "answer": "Siri",
+    "distractors": [
+      "Fafen",
+      "Jewels",
+      "Sisana"
+    ],
+    "explanation": "Dedelin sends his youngest daughter, Siri, and keeps the politically trained Vivenna in Idris.",
+    "sourceTitle": "Warbreaker • Chapter two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-chapter-two",
+    "id": "CB-119",
+    "options": [
+      "Jewels",
+      "Siri",
+      "Fafen",
+      "Sisana",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 24,
+    "witnessModel": "openai/gpt-6-luna"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Connections",
+    "prompt": "Which of the Five Scholars was brought back as the Lifeless swordsman Clod?",
+    "answer": "Arsteel",
+    "distractors": [
+      "Yesteel",
+      "Denth",
+      "Vasher"
+    ],
+    "explanation": "Sanderson identifies Clod as Arsteel. A trace of the man he was persists in the Lifeless.",
+    "sourceTitle": "Sanderson’s character FAQ • Clod",
+    "sourceUrl": "https://faq.brandonsanderson.com/knowledge-base/characters/",
+    "id": "CB-120",
+    "options": [
+      "Vasher",
+      "Yesteel",
+      "Denth",
+      "Arsteel",
+      "None of the above"
+    ],
+    "key": 3,
+    "correctModels": 14,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Foundations",
+    "prompt": "When Lightsong remembers how he made his living before he Returned, what kind of work does he recall doing?",
+    "answer": "Auditing financial accounts",
+    "distractors": [
+      "Illustrating navigational charts",
+      "Appraising fine paintings",
+      "Training the city watch"
+    ],
+    "explanation": "Lightsong recalls working as a scribe who investigated financial discrepancies. Clients paid him to check their ledgers. The chapter also calls his work detective work.",
+    "sourceTitle": "Warbreaker • Chapter fifty-seven",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-chapter-fifty-seven",
+    "id": "CB-121",
+    "options": [
+      "Auditing financial accounts",
+      "Illustrating navigational charts",
+      "Training the city watch",
+      "Appraising fine paintings",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 9,
+    "witnessModel": "deepseek/deepseek-v4-pro-0813",
+    "judgeContext": "Clients paid him to inspect their ledgers for missing money or unpaid obligations."
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "False premises",
+    "prompt": "How many ordinary Breaths must a newly Returned person obtain to reach the Fifth Heightening for the first time?",
+    "answer": "None. The divine Breath already grants that Heightening.",
+    "distractors": [
+      "Fifty ordinary Breaths, in addition to the divine one",
+      "One ordinary Breath as a first weekly offering",
+      "Two thousand ordinary Breaths to supplement the divine one"
+    ],
+    "explanation": "Vasher explains to Vivenna that a single divine Breath confers the Fifth Heightening. The weekly Breath sustains the Returned’s life.",
+    "sourceTitle": "Warbreaker • Epilogue",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-epilogue",
+    "id": "CB-122",
+    "options": [
+      "Two thousand ordinary Breaths to supplement the divine one",
+      "One ordinary Breath as a first weekly offering",
+      "None. The divine Breath already grants that Heightening.",
+      "Fifty ordinary Breaths, in addition to the divine one",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 14,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Nalthis",
+    "book": "Warbreaker",
+    "category": "Close reading",
+    "prompt": "Which Lifeless animal does Lightsong show Blushweaver as evidence from the break-in at Mercystar’s palace?",
+    "answer": "A squirrel",
+    "distractors": [
+      "A monkey",
+      "A rat",
+      "A songbird"
+    ],
+    "explanation": "The intruder used the squirrel to draw attention. Lightsong points to its careful stitching and powerful Commands as signs of an expert’s work.",
+    "sourceTitle": "Warbreaker • Chapter thirty-eight",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/warbreaker-chapter-thirty-eight",
+    "id": "CB-123",
+    "options": [
+      "A monkey",
+      "A squirrel",
+      "A rat",
+      "A songbird",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 9,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "False premises",
+    "prompt": "Who officiated at Sarene’s wedding to Raoden before she first came ashore in Arelon?",
+    "answer": "No one. A death clause in their betrothal contract made her his legal widow.",
+    "distractors": [
+      "King Iadon performed a proxy marriage.",
+      "A Korathi priest married them by seon.",
+      "A Teo ambassador married them aboard her ship."
+    ],
+    "explanation": "The contract gave their engagement the legal force of marriage if either died before the wedding. Sarene learns of Raoden’s reported death on arrival.",
+    "sourceTitle": "Elantris • Chapter two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/elantris-chapter-two",
+    "id": "CB-124",
+    "options": [
+      "A Teo ambassador married them aboard her ship.",
+      "King Iadon performed a proxy marriage.",
+      "No one. A death clause in their betrothal contract made her his legal widow.",
+      "A Korathi priest married them by seon.",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 11,
+    "witnessModel": "anthropic/claude-opus-5.5"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Foundations",
+    "prompt": "How much time does Hrathen have to convert Arelon to the Derethi religion at the start of Elantris?",
+    "answer": "Three months",
+    "distractors": [
+      "Three weeks",
+      "One year",
+      "Thirty days"
+    ],
+    "explanation": "The deadline in Wyrn’s orders shapes Hrathen’s campaign from the moment he reaches Kae.",
+    "sourceTitle": "Elantris • Chapter three",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/elantris-chapter-three",
+    "id": "CB-125",
+    "options": [
+      "Three weeks",
+      "One year",
+      "Three months",
+      "Thirty days",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 23,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "Sel",
+    "book": "Elantris",
+    "category": "Connections",
+    "prompt": "When Raoden drags a stick through the dirt to restore Elantris, what change in Arelon’s geography does his new line represent?",
+    "answer": "The chasm created by the earthquake",
+    "distractors": [
+      "The redirected course of the Aredel River",
+      "A new break in the coastline",
+      "The flooding of Lake Alonoe"
+    ],
+    "explanation": "The Aons reflect the land. Raoden adds the missing chasm line to the city-sized Aon, reopening the flow of the Dor.",
+    "sourceTitle": "Sanderson’s annotation to Elantris • Chapter sixty-one, part three",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/annotation-elantris-61-3",
+    "id": "CB-126",
+    "options": [
+      "A new break in the coastline",
+      "The redirected course of the Aredel River",
+      "The chasm created by the earthquake",
+      "The flooding of Lake Alonoe",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 15,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "The Hope of Elantris",
+    "category": "Close reading",
+    "prompt": "In The Hope of Elantris, which Aon does Matisse draw in front of the soldiers to dazzle them while the children escape?",
+    "answer": "Aon Ashe",
+    "distractors": [
+      "Aon Rao",
+      "Aon Tia",
+      "Aon Edo"
+    ],
+    "explanation": "Matisse copies the symbol at the center of her seon friend, then adds the line Galladon taught her. The burst of light blinds her pursuers briefly.",
+    "sourceTitle": "The Hope of Elantris • Complete story",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-hope-of-elantris",
+    "id": "CB-127",
+    "options": [
+      "Aon Ashe",
+      "Aon Edo",
+      "Aon Tia",
+      "Aon Rao",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 9,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Close reading",
+    "prompt": "In the Rose Empire, what is the local name for the unForgeable metal Shai suspects is hidden behind her prison wall?",
+    "answer": "Ralkalest",
+    "distractors": [
+      "Soulstone",
+      "Trellium",
+      "Duralumin"
+    ],
+    "explanation": "Shai tells the arbiters she has guessed that plates of ralkalest back the stonework. Even a Forger would have to find another way through.",
+    "sourceTitle": "The Emperor’s Soul • Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-129",
+    "options": [
+      "Trellium",
+      "Duralumin",
+      "Ralkalest",
+      "Soulstone",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 13,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Close reading",
+    "prompt": "Which painting by Han ShuXen does Frava put in front of Shai during their first interview?",
+    "answer": "Lily of the Spring Pond",
+    "distractors": [
+      "The Imperial Sunrise",
+      "A Heron Above the Reeds",
+      "The Emperor’s Garden"
+    ],
+    "explanation": "Frava says her assessors have judged the canvas an inferior copy and presses Shai to explain why she made it.",
+    "sourceTitle": "The Emperor’s Soul • Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-130",
+    "options": [
+      "The Emperor’s Garden",
+      "A Heron Above the Reeds",
+      "The Moonlit Courtyard",
+      "The Imperial Sunrise",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 2,
+    "witnessModel": "moonshotai/kimi-k3.1-pro"
+  },
+  {
+    "world": "Sel",
+    "book": "The Emperor’s Soul",
+    "category": "Connections",
+    "prompt": "What do the Rose Empire’s surgeons call the kind of Forgery used to repair Ashravan’s physical injuries?",
+    "answer": "Resealing",
+    "distractors": [
+      "ReForging",
+      "Bloodsealing",
+      "Soulcasting"
+    ],
+    "explanation": "Shai knows the practice as Flesh Forgery. A surgeon uses detailed knowledge of the body to remove the injuries.",
+    "sourceTitle": "The Emperor’s Soul • Day Two",
+    "sourceUrl": "https://www.brandonsanderson.com/blogs/blog/the-emperors-soul-excerpt",
+    "id": "CB-131",
+    "options": [
+      "Resealing",
+      "Bloodsealing",
+      "ReForging",
+      "Soulcasting",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 8,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Threnody",
+    "book": "Shadows for Silence in the Forests of Hell",
+    "category": "Foundations",
+    "prompt": "Which metal do Threnodites use to protect themselves from shades in the Forests of Hell?",
+    "answer": "Silver",
+    "distractors": [
+      "Aluminum",
+      "Iron",
+      "Copper"
+    ],
+    "explanation": "Threnodites use silver for protection against shades. Sanderson also confirms the choice of metal is significant.",
+    "sourceTitle": "Sanderson’s FAQ • Threnodite silver",
+    "sourceUrl": "https://faq.brandonsanderson.com/knowledge-base/%E2%80%8Bis-there-significance-in-the-fact-that-the-people-of-threnody-use-silver-for-protection/",
+    "id": "CB-132",
+    "options": [
+      "Silver",
+      "Aluminum",
+      "Iron",
+      "Copper",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 19,
+    "witnessModel": "x-ai/grok-4.7"
+  },
+  {
+    "world": "Threnody",
+    "book": "Shadows for Silence in the Forests of Hell",
+    "category": "False premises",
+    "prompt": "What disguise does Hoid wear in his cameo at Silence Montane’s waystop in Shadows for Silence in the Forests of Hell?",
+    "answer": "Hoid has no cameo in the published story.",
+    "distractors": [
+      "He takes the name Earnest and buys Daggon a drink.",
+      "He poses as a trader from Lastport.",
+      "He is the man sitting alone in the brown hat."
+    ],
+    "explanation": "Sanderson considered a cameo for Hoid, then left it out of the novella.",
+    "sourceTitle": "Sanderson’s FAQ • Hoid in Shadows for Silence",
+    "sourceUrl": "https://faq.brandonsanderson.com/knowledge-base/where-can-we-find-hoid-in-shadows-for-silence/",
+    "id": "CB-133",
+    "options": [
+      "He poses as a trader from Lastport.",
+      "He is the man sitting alone in the brown hat.",
+      "He takes the name Earnest and buys Daggon a drink.",
+      "He performs as a traveling storyteller.",
+      "None of the above"
+    ],
+    "key": 4,
+    "correctModels": 5,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "First of the Sun",
+    "book": "Sixth of the Dusk",
+    "category": "Foundations",
+    "prompt": "Which island of the Pantheon did Sixth of the Dusk choose as his lifelong trapping ground?",
+    "answer": "Patji",
+    "distractors": [
+      "Sori",
+      "Akinah",
+      "Kasitor"
+    ],
+    "explanation": "Dusk apprenticed on Sori with his uncle. When it came time to select an island of his own, he chose Patji.",
+    "sourceTitle": "Sixth of the Dusk • Author’s excerpt on StoryBundle",
+    "sourceUrl": "https://www.storybundle.com/books/1362",
+    "id": "CB-134",
+    "options": [
+      "Patji",
+      "Kasitor",
+      "Akinah",
+      "Sori",
+      "None of the above"
+    ],
+    "key": 0,
+    "correctModels": 17,
+    "witnessModel": "openai/gpt-6.2-astra"
+  },
+  {
+    "world": "First of the Sun",
+    "book": "Arcanum Unbounded",
+    "category": "False premises",
+    "prompt": "In Khriss’s Drominad essay, what eyewitness account do the returning Silverlight expeditions give her of First of the Sun’s perpendicularity?",
+    "answer": "None of the expeditions has returned when Khriss writes.",
+    "distractors": [
+      "They report a portal that opens only at low tide.",
+      "They describe a gemstone set into the base of a tree.",
+      "They describe a passage guarded by a bonded Aviar."
+    ],
+    "explanation": "Khriss distinguishes the existence of the perpendicularity from knowledge of its immediate surroundings. Silverlight’s expeditions into that area have gone missing.",
+    "sourceTitle": "Arcanum Unbounded • The Drominad System",
+    "sourceUrl": "https://reactormag.com/arcanum-unbounded-the-drominad-system-excerpt/",
+    "id": "CB-135",
+    "options": [
+      "They report a portal that opens only at low tide.",
+      "They describe a passage guarded by a bonded Aviar.",
+      "None of the expeditions has returned when Khriss writes.",
+      "They describe a gemstone set into the base of a tree.",
+      "None of the above"
+    ],
+    "key": 2,
+    "correctModels": 4,
+    "witnessModel": "openai/gpt-6.1-terra"
+  },
+  {
+    "world": "Taldain",
+    "book": "White Sand",
+    "category": "Close reading",
+    "prompt": "In the childhood test in White Sand, what color does the glowing sand in Traiben’s hand turn after its light fades?",
+    "answer": "Black",
+    "distractors": [
+      "Red",
+      "Silver",
+      "Blue"
+    ],
+    "explanation": "Praxton watches the handful glow and then darken. The mastrells use the brightness of Traiben’s glow to judge his potential.",
+    "sourceTitle": "White Sand • Prose and graphic excerpts",
+    "sourceUrl": "https://reactormag.com/arcanum-unbounded-reveals-what-brandon-sandersons-white-sand-looked-like-before-it-became-a-graphic-novel/",
+    "id": "CB-136",
+    "options": [
+      "Blue",
+      "Black",
+      "Red",
+      "Silver",
+      "None of the above"
+    ],
+    "key": 1,
+    "correctModels": 15,
+    "witnessModel": "openai/gpt-6.2-sol"
+  }
+]
